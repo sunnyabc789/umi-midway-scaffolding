@@ -1,0 +1,474 @@
+2020-03-31 00:00:01,034 INFO 25377 [egg-logrotator] app logger reload: got log-reload message
+2020-03-31 04:30:00,095 INFO 25377 [-/127.0.0.1/-/25ms SCHEDULE /__schedule?path=/home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/tmp/egg-multipart-tmp/sugo-portal-app-server"
+2020-03-31 04:30:00,180 INFO 25377 [-/127.0.0.1/-/117ms SCHEDULE /__schedule?path=/home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-04-01 10:03:47,983 INFO 6852 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-01 10:03:48,004 INFO 6852 [egg-multipart] stream mode enable
+2020-04-01 10:03:48,452 INFO 6852 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-01 10:03:48,466 INFO 6852 [egg-security] use methodnoallow middleware
+2020-04-01 10:03:48,467 INFO 6852 [egg-security] use noopen middleware
+2020-04-01 10:03:48,467 INFO 6852 [egg-security] use nosniff middleware
+2020-04-01 10:03:48,468 INFO 6852 [egg-security] use xssProtection middleware
+2020-04-01 10:03:48,468 INFO 6852 [egg-security] use xframe middleware
+2020-04-01 10:03:48,479 INFO 6852 [egg-security] use dta middleware
+2020-04-01 10:03:48,479 INFO 6852 [egg-security] compose 6 middlewares into one security middleware
+2020-04-01 10:03:48,488 INFO 6852 [egg:core] dump config after load, 6ms
+2020-04-01 10:03:49,123 INFO 6852 [egg-watcher:application] watcher start success
+2020-04-01 10:03:49,327 INFO 6852 [egg:core] dump config after ready, 5ms
+2020-04-01 13:51:27,214 INFO 11149 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-01 13:51:27,236 INFO 11149 [egg-multipart] stream mode enable
+2020-04-01 13:51:27,930 INFO 11149 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-01 13:51:27,945 INFO 11149 [egg-security] use methodnoallow middleware
+2020-04-01 13:51:27,970 INFO 11149 [egg-security] use noopen middleware
+2020-04-01 13:51:27,970 INFO 11149 [egg-security] use nosniff middleware
+2020-04-01 13:51:27,971 INFO 11149 [egg-security] use xssProtection middleware
+2020-04-01 13:51:27,972 INFO 11149 [egg-security] use xframe middleware
+2020-04-01 13:51:28,005 INFO 11149 [egg-security] use dta middleware
+2020-04-01 13:51:28,005 INFO 11149 [egg-security] compose 6 middlewares into one security middleware
+2020-04-01 13:51:28,019 INFO 11149 [egg:core] dump config after load, 12ms
+2020-04-01 13:51:28,695 INFO 11149 [egg-watcher:application] watcher start success
+2020-04-01 13:51:28,981 INFO 11149 [egg:core] dump config after ready, 5ms
+2020-04-01 14:30:09,926 INFO 17685 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-01 14:30:09,949 INFO 17685 [egg-multipart] stream mode enable
+2020-04-01 14:30:10,025 INFO 17685 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-01 14:30:10,028 INFO 17685 [egg-security] use methodnoallow middleware
+2020-04-01 14:30:10,028 INFO 17685 [egg-security] use noopen middleware
+2020-04-01 14:30:10,029 INFO 17685 [egg-security] use nosniff middleware
+2020-04-01 14:30:10,029 INFO 17685 [egg-security] use xssProtection middleware
+2020-04-01 14:30:10,039 INFO 17685 [egg-security] use xframe middleware
+2020-04-01 14:30:10,040 INFO 17685 [egg-security] use dta middleware
+2020-04-01 14:30:10,040 INFO 17685 [egg-security] compose 6 middlewares into one security middleware
+2020-04-01 14:30:10,048 INFO 17685 [egg:core] dump config after load, 6ms
+2020-04-01 14:30:10,168 INFO 17685 [egg-watcher:application] watcher start success
+2020-04-01 14:30:10,414 INFO 17685 [egg:core] dump config after ready, 4ms
+2020-04-01 15:00:11,977 INFO 23339 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-01 15:00:12,004 INFO 23339 [egg-multipart] stream mode enable
+2020-04-01 15:00:12,044 INFO 23339 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-01 15:00:12,047 INFO 23339 [egg-security] use methodnoallow middleware
+2020-04-01 15:00:12,048 INFO 23339 [egg-security] use noopen middleware
+2020-04-01 15:00:12,048 INFO 23339 [egg-security] use nosniff middleware
+2020-04-01 15:00:12,049 INFO 23339 [egg-security] use xssProtection middleware
+2020-04-01 15:00:12,049 INFO 23339 [egg-security] use xframe middleware
+2020-04-01 15:00:12,050 INFO 23339 [egg-security] use dta middleware
+2020-04-01 15:00:12,050 INFO 23339 [egg-security] compose 6 middlewares into one security middleware
+2020-04-01 15:00:12,067 INFO 23339 [egg:core] dump config after load, 14ms
+2020-04-01 15:00:12,202 INFO 23339 [egg-watcher:application] watcher start success
+2020-04-01 15:00:12,464 INFO 23339 [egg:core] dump config after ready, 13ms
+2020-04-02 10:02:16,354 INFO 22665 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-02 10:02:16,376 INFO 22665 [egg-multipart] stream mode enable
+2020-04-02 10:02:16,647 INFO 22665 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-02 10:02:16,650 INFO 22665 [egg-security] use methodnoallow middleware
+2020-04-02 10:02:16,650 INFO 22665 [egg-security] use noopen middleware
+2020-04-02 10:02:16,651 INFO 22665 [egg-security] use nosniff middleware
+2020-04-02 10:02:16,651 INFO 22665 [egg-security] use xssProtection middleware
+2020-04-02 10:02:16,652 INFO 22665 [egg-security] use xframe middleware
+2020-04-02 10:02:16,664 INFO 22665 [egg-security] use dta middleware
+2020-04-02 10:02:16,664 INFO 22665 [egg-security] compose 6 middlewares into one security middleware
+2020-04-02 10:02:16,673 INFO 22665 [egg:core] dump config after load, 6ms
+2020-04-02 10:02:17,285 INFO 22665 [egg-watcher:application] watcher start success
+2020-04-02 10:02:17,500 INFO 22665 [egg:core] dump config after ready, 4ms
+2020-04-02 11:46:17,094 INFO 6044 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-02 11:46:17,116 INFO 6044 [egg-multipart] stream mode enable
+2020-04-02 11:46:17,202 INFO 6044 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-02 11:46:17,204 INFO 6044 [egg-security] use methodnoallow middleware
+2020-04-02 11:46:17,205 INFO 6044 [egg-security] use noopen middleware
+2020-04-02 11:46:17,205 INFO 6044 [egg-security] use nosniff middleware
+2020-04-02 11:46:17,205 INFO 6044 [egg-security] use xssProtection middleware
+2020-04-02 11:46:17,206 INFO 6044 [egg-security] use xframe middleware
+2020-04-02 11:46:17,206 INFO 6044 [egg-security] use dta middleware
+2020-04-02 11:46:17,206 INFO 6044 [egg-security] compose 6 middlewares into one security middleware
+2020-04-02 11:46:17,220 INFO 6044 [egg:core] dump config after load, 11ms
+2020-04-02 11:46:17,329 INFO 6044 [egg-watcher:application] watcher start success
+2020-04-02 11:46:17,577 INFO 6044 [egg:core] dump config after ready, 5ms
+2020-04-02 17:34:08,878 INFO 27449 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-02 17:34:08,900 INFO 27449 [egg-multipart] stream mode enable
+2020-04-02 17:34:08,934 INFO 27449 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-02 17:34:08,937 INFO 27449 [egg-security] use methodnoallow middleware
+2020-04-02 17:34:08,937 INFO 27449 [egg-security] use noopen middleware
+2020-04-02 17:34:08,938 INFO 27449 [egg-security] use nosniff middleware
+2020-04-02 17:34:08,938 INFO 27449 [egg-security] use xssProtection middleware
+2020-04-02 17:34:08,938 INFO 27449 [egg-security] use xframe middleware
+2020-04-02 17:34:08,939 INFO 27449 [egg-security] use dta middleware
+2020-04-02 17:34:08,939 INFO 27449 [egg-security] compose 6 middlewares into one security middleware
+2020-04-02 17:34:08,956 INFO 27449 [egg:core] dump config after load, 14ms
+2020-04-02 17:34:09,066 INFO 27449 [egg-watcher:application] watcher start success
+2020-04-02 17:34:09,283 INFO 27449 [egg:core] dump config after ready, 11ms
+2020-04-02 17:48:13,519 INFO 29470 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-02 17:48:13,541 INFO 29470 [egg-multipart] stream mode enable
+2020-04-02 17:48:13,574 INFO 29470 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-02 17:48:13,577 INFO 29470 [egg-security] use methodnoallow middleware
+2020-04-02 17:48:13,577 INFO 29470 [egg-security] use noopen middleware
+2020-04-02 17:48:13,577 INFO 29470 [egg-security] use nosniff middleware
+2020-04-02 17:48:13,578 INFO 29470 [egg-security] use xssProtection middleware
+2020-04-02 17:48:13,578 INFO 29470 [egg-security] use xframe middleware
+2020-04-02 17:48:13,578 INFO 29470 [egg-security] use dta middleware
+2020-04-02 17:48:13,578 INFO 29470 [egg-security] compose 6 middlewares into one security middleware
+2020-04-02 17:48:13,597 INFO 29470 [egg:core] dump config after load, 16ms
+2020-04-02 17:48:13,713 INFO 29470 [egg-watcher:application] watcher start success
+2020-04-02 17:48:13,949 INFO 29470 [egg:core] dump config after ready, 4ms
+2020-04-02 18:20:45,038 INFO 3161 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-02 18:20:45,071 INFO 3161 [egg-multipart] stream mode enable
+2020-04-02 18:20:46,761 INFO 3161 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-02 18:20:46,763 INFO 3161 [egg-security] use methodnoallow middleware
+2020-04-02 18:20:46,792 INFO 3161 [egg-security] use noopen middleware
+2020-04-02 18:20:46,793 INFO 3161 [egg-security] use nosniff middleware
+2020-04-02 18:20:46,806 INFO 3161 [egg-security] use xssProtection middleware
+2020-04-02 18:20:46,806 INFO 3161 [egg-security] use xframe middleware
+2020-04-02 18:20:46,807 INFO 3161 [egg-security] use dta middleware
+2020-04-02 18:20:46,807 INFO 3161 [egg-security] compose 6 middlewares into one security middleware
+2020-04-02 18:20:46,832 INFO 3161 [egg:core] dump config after load, 23ms
+2020-04-02 18:20:48,303 INFO 3161 [egg-watcher:application] watcher start success
+2020-04-02 18:20:48,673 INFO 3161 [egg:core] dump config after ready, 4ms
+2020-04-02 19:27:22,023 INFO 10162 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-02 19:27:22,048 INFO 10162 [egg-multipart] stream mode enable
+2020-04-02 19:27:22,110 INFO 10162 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-02 19:27:22,112 INFO 10162 [egg-security] use methodnoallow middleware
+2020-04-02 19:27:22,113 INFO 10162 [egg-security] use noopen middleware
+2020-04-02 19:27:22,113 INFO 10162 [egg-security] use nosniff middleware
+2020-04-02 19:27:22,136 INFO 10162 [egg-security] use xssProtection middleware
+2020-04-02 19:27:22,136 INFO 10162 [egg-security] use xframe middleware
+2020-04-02 19:27:22,136 INFO 10162 [egg-security] use dta middleware
+2020-04-02 19:27:22,136 INFO 10162 [egg-security] compose 6 middlewares into one security middleware
+2020-04-02 19:27:22,162 INFO 10162 [egg:core] dump config after load, 15ms
+2020-04-02 19:27:22,362 INFO 10162 [egg-watcher:application] watcher start success
+2020-04-02 19:27:22,607 INFO 10162 [egg:core] dump config after ready, 5ms
+2020-04-03 09:33:59,843 INFO 21987 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 09:33:59,866 INFO 21987 [egg-multipart] stream mode enable
+2020-04-03 09:33:59,900 INFO 21987 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-03 09:33:59,903 INFO 21987 [egg-security] use methodnoallow middleware
+2020-04-03 09:33:59,903 INFO 21987 [egg-security] use noopen middleware
+2020-04-03 09:33:59,903 INFO 21987 [egg-security] use nosniff middleware
+2020-04-03 09:33:59,904 INFO 21987 [egg-security] use xssProtection middleware
+2020-04-03 09:33:59,904 INFO 21987 [egg-security] use xframe middleware
+2020-04-03 09:33:59,904 INFO 21987 [egg-security] use dta middleware
+2020-04-03 09:33:59,905 INFO 21987 [egg-security] compose 6 middlewares into one security middleware
+2020-04-03 09:33:59,920 INFO 21987 [egg:core] dump config after load, 12ms
+2020-04-03 09:34:00,036 INFO 21987 [egg-watcher:application] watcher start success
+2020-04-03 09:34:00,259 INFO 21987 [egg:core] dump config after ready, 4ms
+2020-04-03 13:51:17,906 INFO 16500 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 13:51:17,931 INFO 16500 [egg-multipart] stream mode enable
+2020-04-03 13:51:18,020 INFO 16500 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-03 13:51:18,023 INFO 16500 [egg-security] use methodnoallow middleware
+2020-04-03 13:51:18,024 INFO 16500 [egg-security] use noopen middleware
+2020-04-03 13:51:18,024 INFO 16500 [egg-security] use nosniff middleware
+2020-04-03 13:51:18,025 INFO 16500 [egg-security] use xssProtection middleware
+2020-04-03 13:51:18,025 INFO 16500 [egg-security] use xframe middleware
+2020-04-03 13:51:18,025 INFO 16500 [egg-security] use dta middleware
+2020-04-03 13:51:18,025 INFO 16500 [egg-security] compose 6 middlewares into one security middleware
+2020-04-03 13:51:18,045 INFO 16500 [egg:core] dump config after load, 17ms
+2020-04-03 13:51:18,174 INFO 16500 [egg-watcher:application] watcher start success
+2020-04-03 13:51:18,395 INFO 16500 [egg:core] dump config after ready, 5ms
+2020-04-03 17:36:42,143 INFO 14919 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 17:36:42,166 INFO 14919 [egg-multipart] stream mode enable
+2020-04-03 17:36:42,203 INFO 14919 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-03 17:36:42,205 INFO 14919 [egg-security] use methodnoallow middleware
+2020-04-03 17:36:42,205 INFO 14919 [egg-security] use noopen middleware
+2020-04-03 17:36:42,206 INFO 14919 [egg-security] use nosniff middleware
+2020-04-03 17:36:42,206 INFO 14919 [egg-security] use xssProtection middleware
+2020-04-03 17:36:42,206 INFO 14919 [egg-security] use xframe middleware
+2020-04-03 17:36:42,207 INFO 14919 [egg-security] use dta middleware
+2020-04-03 17:36:42,207 INFO 14919 [egg-security] compose 6 middlewares into one security middleware
+2020-04-03 17:36:42,220 INFO 14919 [egg:core] dump config after load, 11ms
+2020-04-03 17:36:42,334 INFO 14919 [egg-watcher:application] watcher start success
+2020-04-03 17:36:42,562 INFO 14919 [egg:core] dump config after ready, 5ms
+2020-04-03 18:15:08,845 INFO 19385 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 18:15:08,868 INFO 19385 [egg-multipart] stream mode enable
+2020-04-03 18:15:09,028 INFO 19385 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-03 18:15:09,031 INFO 19385 [egg-security] use methodnoallow middleware
+2020-04-03 18:15:09,031 INFO 19385 [egg-security] use noopen middleware
+2020-04-03 18:15:09,032 INFO 19385 [egg-security] use nosniff middleware
+2020-04-03 18:15:09,038 INFO 19385 [egg-security] use xssProtection middleware
+2020-04-03 18:15:09,039 INFO 19385 [egg-security] use xframe middleware
+2020-04-03 18:15:09,039 INFO 19385 [egg-security] use dta middleware
+2020-04-03 18:15:09,039 INFO 19385 [egg-security] compose 6 middlewares into one security middleware
+2020-04-03 18:15:09,057 INFO 19385 [egg:core] dump config after load, 15ms
+2020-04-03 18:15:09,194 INFO 19385 [egg-watcher:application] watcher start success
+2020-04-03 18:15:09,429 INFO 19385 [egg:core] dump config after ready, 7ms
+2020-04-03 18:20:21,654 INFO 20336 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 18:20:21,677 INFO 20336 [egg-multipart] stream mode enable
+2020-04-03 18:20:22,214 INFO 20336 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-03 18:20:22,226 INFO 20336 [egg-security] use methodnoallow middleware
+2020-04-03 18:20:22,227 INFO 20336 [egg-security] use noopen middleware
+2020-04-03 18:20:22,227 INFO 20336 [egg-security] use nosniff middleware
+2020-04-03 18:20:22,228 INFO 20336 [egg-security] use xssProtection middleware
+2020-04-03 18:20:22,228 INFO 20336 [egg-security] use xframe middleware
+2020-04-03 18:20:22,236 INFO 20336 [egg-security] use dta middleware
+2020-04-03 18:20:22,236 INFO 20336 [egg-security] compose 6 middlewares into one security middleware
+2020-04-03 18:20:22,250 INFO 20336 [egg:core] dump config after load, 10ms
+2020-04-03 18:20:22,832 INFO 20336 [egg-watcher:application] watcher start success
+2020-04-03 18:20:23,046 INFO 20336 [egg:core] dump config after ready, 7ms
+2020-04-03 18:24:20,547 INFO 21097 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 18:24:20,570 INFO 21097 [egg-multipart] stream mode enable
+2020-04-03 18:24:20,773 INFO 21097 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-03 18:24:20,784 INFO 21097 [egg-security] use methodnoallow middleware
+2020-04-03 18:24:20,784 INFO 21097 [egg-security] use noopen middleware
+2020-04-03 18:24:20,784 INFO 21097 [egg-security] use nosniff middleware
+2020-04-03 18:24:20,785 INFO 21097 [egg-security] use xssProtection middleware
+2020-04-03 18:24:20,785 INFO 21097 [egg-security] use xframe middleware
+2020-04-03 18:24:20,785 INFO 21097 [egg-security] use dta middleware
+2020-04-03 18:24:20,785 INFO 21097 [egg-security] compose 6 middlewares into one security middleware
+2020-04-03 18:24:20,794 INFO 21097 [egg:core] dump config after load, 6ms
+2020-04-03 18:24:21,158 INFO 21097 [egg-watcher:application] watcher start success
+2020-04-03 18:24:21,429 INFO 21097 [egg:core] dump config after ready, 4ms
+2020-04-03 19:07:38,004 INFO 25977 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 19:07:38,025 INFO 25977 [egg-multipart] stream mode enable
+2020-04-03 19:07:38,478 INFO 25977 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-03 19:07:38,493 INFO 25977 [egg-security] use methodnoallow middleware
+2020-04-03 19:07:38,493 INFO 25977 [egg-security] use noopen middleware
+2020-04-03 19:07:38,494 INFO 25977 [egg-security] use nosniff middleware
+2020-04-03 19:07:38,494 INFO 25977 [egg-security] use xssProtection middleware
+2020-04-03 19:07:38,495 INFO 25977 [egg-security] use xframe middleware
+2020-04-03 19:07:38,503 INFO 25977 [egg-security] use dta middleware
+2020-04-03 19:07:38,503 INFO 25977 [egg-security] compose 6 middlewares into one security middleware
+2020-04-03 19:07:38,516 INFO 25977 [egg:core] dump config after load, 10ms
+2020-04-03 19:07:39,071 INFO 25977 [egg-watcher:application] watcher start success
+2020-04-03 19:07:39,288 INFO 25977 [egg:core] dump config after ready, 6ms
+2020-04-03 19:12:42,202 INFO 26714 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 19:12:42,227 INFO 26714 [egg-multipart] stream mode enable
+2020-04-03 19:12:42,261 INFO 26714 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-03 19:12:42,263 INFO 26714 [egg-security] use methodnoallow middleware
+2020-04-03 19:12:42,264 INFO 26714 [egg-security] use noopen middleware
+2020-04-03 19:12:42,264 INFO 26714 [egg-security] use nosniff middleware
+2020-04-03 19:12:42,264 INFO 26714 [egg-security] use xssProtection middleware
+2020-04-03 19:12:42,265 INFO 26714 [egg-security] use xframe middleware
+2020-04-03 19:12:42,265 INFO 26714 [egg-security] use dta middleware
+2020-04-03 19:12:42,265 INFO 26714 [egg-security] compose 6 middlewares into one security middleware
+2020-04-03 19:12:42,284 INFO 26714 [egg:core] dump config after load, 10ms
+2020-04-03 19:12:42,404 INFO 26714 [egg-watcher:application] watcher start success
+2020-04-03 19:12:42,626 INFO 26714 [egg:core] dump config after ready, 6ms
+2020-04-03 20:09:30,426 INFO 3221 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-03 20:09:30,451 INFO 3221 [egg-multipart] stream mode enable
+2020-04-03 20:09:30,492 INFO 3221 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-03 20:09:30,495 INFO 3221 [egg-security] use methodnoallow middleware
+2020-04-03 20:09:30,495 INFO 3221 [egg-security] use noopen middleware
+2020-04-03 20:09:30,496 INFO 3221 [egg-security] use nosniff middleware
+2020-04-03 20:09:30,496 INFO 3221 [egg-security] use xssProtection middleware
+2020-04-03 20:09:30,496 INFO 3221 [egg-security] use xframe middleware
+2020-04-03 20:09:30,497 INFO 3221 [egg-security] use dta middleware
+2020-04-03 20:09:30,497 INFO 3221 [egg-security] compose 6 middlewares into one security middleware
+2020-04-03 20:09:30,514 INFO 3221 [egg:core] dump config after load, 6ms
+2020-04-03 20:09:30,640 INFO 3221 [egg-watcher:application] watcher start success
+2020-04-03 20:09:30,847 INFO 3221 [egg:core] dump config after ready, 4ms
+2020-04-07 14:04:56,255 INFO 21176 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-07 14:04:56,297 INFO 21176 [egg-multipart] stream mode enable
+2020-04-07 14:04:57,516 INFO 21176 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-07 14:04:57,534 INFO 21176 [egg-security] use methodnoallow middleware
+2020-04-07 14:04:57,535 INFO 21176 [egg-security] use noopen middleware
+2020-04-07 14:04:57,535 INFO 21176 [egg-security] use nosniff middleware
+2020-04-07 14:04:57,536 INFO 21176 [egg-security] use xssProtection middleware
+2020-04-07 14:04:57,536 INFO 21176 [egg-security] use xframe middleware
+2020-04-07 14:04:57,561 INFO 21176 [egg-security] use dta middleware
+2020-04-07 14:04:57,561 INFO 21176 [egg-security] compose 6 middlewares into one security middleware
+2020-04-07 14:04:57,589 INFO 21176 [egg:core] dump config after load, 25ms
+2020-04-07 14:04:59,707 INFO 21176 [egg-watcher:application] watcher start success
+2020-04-07 14:04:59,960 INFO 21176 [egg:core] dump config after ready, 8ms
+2020-04-07 19:09:22,111 INFO 26563 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-07 19:09:22,141 INFO 26563 [egg-multipart] stream mode enable
+2020-04-07 19:09:22,177 INFO 26563 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-07 19:09:22,180 INFO 26563 [egg-security] use methodnoallow middleware
+2020-04-07 19:09:22,180 INFO 26563 [egg-security] use noopen middleware
+2020-04-07 19:09:22,181 INFO 26563 [egg-security] use nosniff middleware
+2020-04-07 19:09:22,181 INFO 26563 [egg-security] use xssProtection middleware
+2020-04-07 19:09:22,181 INFO 26563 [egg-security] use xframe middleware
+2020-04-07 19:09:22,182 INFO 26563 [egg-security] use dta middleware
+2020-04-07 19:09:22,182 INFO 26563 [egg-security] compose 6 middlewares into one security middleware
+2020-04-07 19:09:22,198 INFO 26563 [egg:core] dump config after load, 14ms
+2020-04-07 19:09:22,324 INFO 26563 [egg-watcher:application] watcher start success
+2020-04-07 19:09:22,576 INFO 26563 [egg:core] dump config after ready, 7ms
+2020-04-07 19:13:23,968 INFO 27268 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-07 19:13:23,993 INFO 27268 [egg-multipart] stream mode enable
+2020-04-07 19:13:24,030 INFO 27268 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-07 19:13:24,032 INFO 27268 [egg-security] use methodnoallow middleware
+2020-04-07 19:13:24,033 INFO 27268 [egg-security] use noopen middleware
+2020-04-07 19:13:24,033 INFO 27268 [egg-security] use nosniff middleware
+2020-04-07 19:13:24,033 INFO 27268 [egg-security] use xssProtection middleware
+2020-04-07 19:13:24,034 INFO 27268 [egg-security] use xframe middleware
+2020-04-07 19:13:24,034 INFO 27268 [egg-security] use dta middleware
+2020-04-07 19:13:24,034 INFO 27268 [egg-security] compose 6 middlewares into one security middleware
+2020-04-07 19:13:24,056 INFO 27268 [egg:core] dump config after load, 8ms
+2020-04-07 19:13:24,178 INFO 27268 [egg-watcher:application] watcher start success
+2020-04-07 19:13:24,419 INFO 27268 [egg:core] dump config after ready, 5ms
+2020-04-07 21:02:28,687 INFO 9830 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-07 21:02:28,710 INFO 9830 [egg-multipart] stream mode enable
+2020-04-07 21:02:31,134 INFO 9830 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-07 21:02:31,173 INFO 9830 [egg-security] use methodnoallow middleware
+2020-04-07 21:02:31,174 INFO 9830 [egg-security] use noopen middleware
+2020-04-07 21:02:31,175 INFO 9830 [egg-security] use nosniff middleware
+2020-04-07 21:02:31,179 INFO 9830 [egg-security] use xssProtection middleware
+2020-04-07 21:02:31,194 INFO 9830 [egg-security] use xframe middleware
+2020-04-07 21:02:31,225 INFO 9830 [egg-security] use dta middleware
+2020-04-07 21:02:31,226 INFO 9830 [egg-security] compose 6 middlewares into one security middleware
+2020-04-07 21:02:31,241 INFO 9830 [egg:core] dump config after load, 12ms
+2020-04-07 21:02:34,473 INFO 9830 [egg-watcher:application] watcher start success
+2020-04-07 21:02:34,748 INFO 9830 [egg:core] dump config after ready, 5ms
+2020-04-08 09:14:49,494 INFO 23055 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 09:14:49,516 INFO 23055 [egg-multipart] stream mode enable
+2020-04-08 09:14:50,056 INFO 23055 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-08 09:14:50,071 INFO 23055 [egg-security] use methodnoallow middleware
+2020-04-08 09:14:50,071 INFO 23055 [egg-security] use noopen middleware
+2020-04-08 09:14:50,075 INFO 23055 [egg-security] use nosniff middleware
+2020-04-08 09:14:50,076 INFO 23055 [egg-security] use xssProtection middleware
+2020-04-08 09:14:50,076 INFO 23055 [egg-security] use xframe middleware
+2020-04-08 09:14:50,081 INFO 23055 [egg-security] use dta middleware
+2020-04-08 09:14:50,081 INFO 23055 [egg-security] compose 6 middlewares into one security middleware
+2020-04-08 09:14:50,089 INFO 23055 [egg:core] dump config after load, 6ms
+2020-04-08 09:14:50,751 INFO 23055 [egg-watcher:application] watcher start success
+2020-04-08 09:14:50,955 INFO 23055 [egg:core] dump config after ready, 5ms
+2020-04-08 10:32:15,966 INFO 31392 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 10:32:15,990 INFO 31392 [egg-multipart] stream mode enable
+2020-04-08 10:32:16,024 INFO 31392 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-08 10:32:16,027 INFO 31392 [egg-security] use methodnoallow middleware
+2020-04-08 10:32:16,027 INFO 31392 [egg-security] use noopen middleware
+2020-04-08 10:32:16,028 INFO 31392 [egg-security] use nosniff middleware
+2020-04-08 10:32:16,028 INFO 31392 [egg-security] use xssProtection middleware
+2020-04-08 10:32:16,028 INFO 31392 [egg-security] use xframe middleware
+2020-04-08 10:32:16,029 INFO 31392 [egg-security] use dta middleware
+2020-04-08 10:32:16,029 INFO 31392 [egg-security] compose 6 middlewares into one security middleware
+2020-04-08 10:32:16,043 INFO 31392 [egg:core] dump config after load, 12ms
+2020-04-08 10:32:16,200 INFO 31392 [egg-watcher:application] watcher start success
+2020-04-08 10:32:16,406 INFO 31392 [egg:core] dump config after ready, 5ms
+2020-04-08 10:45:12,286 INFO 727 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 10:45:12,312 INFO 727 [egg-multipart] stream mode enable
+2020-04-08 10:45:12,351 INFO 727 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-08 10:45:12,353 INFO 727 [egg-security] use methodnoallow middleware
+2020-04-08 10:45:12,353 INFO 727 [egg-security] use noopen middleware
+2020-04-08 10:45:12,354 INFO 727 [egg-security] use nosniff middleware
+2020-04-08 10:45:12,354 INFO 727 [egg-security] use xssProtection middleware
+2020-04-08 10:45:12,355 INFO 727 [egg-security] use xframe middleware
+2020-04-08 10:45:12,355 INFO 727 [egg-security] use dta middleware
+2020-04-08 10:45:12,355 INFO 727 [egg-security] compose 6 middlewares into one security middleware
+2020-04-08 10:45:12,369 INFO 727 [egg:core] dump config after load, 11ms
+2020-04-08 10:45:12,489 INFO 727 [egg-watcher:application] watcher start success
+2020-04-08 10:45:12,741 INFO 727 [egg:core] dump config after ready, 10ms
+2020-04-08 11:14:44,806 INFO 4696 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 11:14:44,829 INFO 4696 [egg-multipart] stream mode enable
+2020-04-08 11:14:44,863 INFO 4696 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-08 11:14:44,865 INFO 4696 [egg-security] use methodnoallow middleware
+2020-04-08 11:14:44,866 INFO 4696 [egg-security] use noopen middleware
+2020-04-08 11:14:44,866 INFO 4696 [egg-security] use nosniff middleware
+2020-04-08 11:14:44,867 INFO 4696 [egg-security] use xssProtection middleware
+2020-04-08 11:14:44,867 INFO 4696 [egg-security] use xframe middleware
+2020-04-08 11:14:44,867 INFO 4696 [egg-security] use dta middleware
+2020-04-08 11:14:44,867 INFO 4696 [egg-security] compose 6 middlewares into one security middleware
+2020-04-08 11:14:44,880 INFO 4696 [egg:core] dump config after load, 10ms
+2020-04-08 11:14:44,993 INFO 4696 [egg-watcher:application] watcher start success
+2020-04-08 11:14:45,210 INFO 4696 [egg:core] dump config after ready, 7ms
+2020-04-08 11:24:38,136 INFO 6536 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 11:24:38,164 INFO 6536 [egg-multipart] stream mode enable
+2020-04-08 11:24:38,200 INFO 6536 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-08 11:24:38,203 INFO 6536 [egg-security] use methodnoallow middleware
+2020-04-08 11:24:38,204 INFO 6536 [egg-security] use noopen middleware
+2020-04-08 11:24:38,204 INFO 6536 [egg-security] use nosniff middleware
+2020-04-08 11:24:38,205 INFO 6536 [egg-security] use xssProtection middleware
+2020-04-08 11:24:38,205 INFO 6536 [egg-security] use xframe middleware
+2020-04-08 11:24:38,205 INFO 6536 [egg-security] use dta middleware
+2020-04-08 11:24:38,205 INFO 6536 [egg-security] compose 6 middlewares into one security middleware
+2020-04-08 11:24:38,229 INFO 6536 [egg:core] dump config after load, 20ms
+2020-04-08 11:24:38,374 INFO 6536 [egg-watcher:application] watcher start success
+2020-04-08 11:24:38,590 INFO 6536 [egg:core] dump config after ready, 5ms
+2020-04-08 11:25:58,613 INFO 6916 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 11:25:58,636 INFO 6916 [egg-multipart] stream mode enable
+2020-04-08 11:25:58,670 INFO 6916 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-08 11:25:58,673 INFO 6916 [egg-security] use methodnoallow middleware
+2020-04-08 11:25:58,673 INFO 6916 [egg-security] use noopen middleware
+2020-04-08 11:25:58,673 INFO 6916 [egg-security] use nosniff middleware
+2020-04-08 11:25:58,674 INFO 6916 [egg-security] use xssProtection middleware
+2020-04-08 11:25:58,674 INFO 6916 [egg-security] use xframe middleware
+2020-04-08 11:25:58,674 INFO 6916 [egg-security] use dta middleware
+2020-04-08 11:25:58,674 INFO 6916 [egg-security] compose 6 middlewares into one security middleware
+2020-04-08 11:25:58,690 INFO 6916 [egg:core] dump config after load, 12ms
+2020-04-08 11:25:58,799 INFO 6916 [egg-watcher:application] watcher start success
+2020-04-08 11:25:59,074 INFO 6916 [egg:core] dump config after ready, 4ms
+2020-04-08 11:51:29,975 INFO 9820 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 11:51:29,998 INFO 9820 [egg-multipart] stream mode enable
+2020-04-08 11:51:30,670 INFO 9820 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-08 11:51:30,685 INFO 9820 [egg-security] use methodnoallow middleware
+2020-04-08 11:51:30,685 INFO 9820 [egg-security] use noopen middleware
+2020-04-08 11:51:30,686 INFO 9820 [egg-security] use nosniff middleware
+2020-04-08 11:51:30,686 INFO 9820 [egg-security] use xssProtection middleware
+2020-04-08 11:51:30,687 INFO 9820 [egg-security] use xframe middleware
+2020-04-08 11:51:30,695 INFO 9820 [egg-security] use dta middleware
+2020-04-08 11:51:30,695 INFO 9820 [egg-security] compose 6 middlewares into one security middleware
+2020-04-08 11:51:30,714 INFO 9820 [egg:core] dump config after load, 11ms
+2020-04-08 11:51:31,438 INFO 9820 [egg-watcher:application] watcher start success
+2020-04-08 11:51:31,675 INFO 9820 [egg:core] dump config after ready, 5ms
+2020-04-08 14:36:13,417 INFO 23371 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 14:36:13,448 INFO 23371 [egg-multipart] stream mode enable
+2020-04-08 14:36:13,535 INFO 23371 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-08 14:36:13,538 INFO 23371 [egg-security] use methodnoallow middleware
+2020-04-08 14:36:13,538 INFO 23371 [egg-security] use noopen middleware
+2020-04-08 14:36:13,539 INFO 23371 [egg-security] use nosniff middleware
+2020-04-08 14:36:13,539 INFO 23371 [egg-security] use xssProtection middleware
+2020-04-08 14:36:13,540 INFO 23371 [egg-security] use xframe middleware
+2020-04-08 14:36:13,540 INFO 23371 [egg-security] use dta middleware
+2020-04-08 14:36:13,540 INFO 23371 [egg-security] compose 6 middlewares into one security middleware
+2020-04-08 14:36:13,558 INFO 23371 [egg:core] dump config after load, 16ms
+2020-04-08 14:36:13,772 INFO 23371 [egg-watcher:application] watcher start success
+2020-04-08 14:36:13,983 INFO 23371 [egg:core] dump config after ready, 5ms
+2020-04-08 15:12:10,731 INFO 27910 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 15:12:10,765 INFO 27910 [egg-multipart] stream mode enable
+2020-04-08 15:12:10,868 INFO 27910 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-08 15:12:10,876 INFO 27910 [egg-security] use methodnoallow middleware
+2020-04-08 15:12:10,877 INFO 27910 [egg-security] use noopen middleware
+2020-04-08 15:12:10,877 INFO 27910 [egg-security] use nosniff middleware
+2020-04-08 15:12:10,878 INFO 27910 [egg-security] use xssProtection middleware
+2020-04-08 15:12:10,878 INFO 27910 [egg-security] use xframe middleware
+2020-04-08 15:12:10,878 INFO 27910 [egg-security] use dta middleware
+2020-04-08 15:12:10,878 INFO 27910 [egg-security] compose 6 middlewares into one security middleware
+2020-04-08 15:12:10,898 INFO 27910 [egg:core] dump config after load, 17ms
+2020-04-08 15:12:11,274 INFO 27910 [egg-watcher:application] watcher start success
+2020-04-08 15:12:11,498 INFO 27910 [egg:core] dump config after ready, 5ms
+2020-04-09 17:06:22,923 INFO 5861 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 17:06:22,944 INFO 5861 [egg-multipart] stream mode enable
+2020-04-09 17:06:23,697 INFO 5861 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-09 17:06:23,720 INFO 5861 [egg-security] use methodnoallow middleware
+2020-04-09 17:06:23,721 INFO 5861 [egg-security] use noopen middleware
+2020-04-09 17:06:23,721 INFO 5861 [egg-security] use nosniff middleware
+2020-04-09 17:06:23,722 INFO 5861 [egg-security] use xssProtection middleware
+2020-04-09 17:06:23,722 INFO 5861 [egg-security] use xframe middleware
+2020-04-09 17:06:23,730 INFO 5861 [egg-security] use dta middleware
+2020-04-09 17:06:23,731 INFO 5861 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 17:06:23,775 INFO 5861 [egg:core] dump config after load, 42ms
+2020-04-09 17:06:25,069 INFO 5861 [egg-watcher:application] watcher start success
+2020-04-09 17:06:25,295 INFO 5861 [egg:core] dump config after ready, 10ms
+2020-04-09 17:38:21,046 INFO 11917 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 17:38:21,068 INFO 11917 [egg-multipart] stream mode enable
+2020-04-09 17:38:21,100 INFO 11917 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-09 17:38:21,102 INFO 11917 [egg-security] use methodnoallow middleware
+2020-04-09 17:38:21,103 INFO 11917 [egg-security] use noopen middleware
+2020-04-09 17:38:21,103 INFO 11917 [egg-security] use nosniff middleware
+2020-04-09 17:38:21,103 INFO 11917 [egg-security] use xssProtection middleware
+2020-04-09 17:38:21,104 INFO 11917 [egg-security] use xframe middleware
+2020-04-09 17:38:21,104 INFO 11917 [egg-security] use dta middleware
+2020-04-09 17:38:21,104 INFO 11917 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 17:38:21,116 INFO 11917 [egg:core] dump config after load, 10ms
+2020-04-09 17:38:21,230 INFO 11917 [egg-watcher:application] watcher start success
+2020-04-09 17:38:21,442 INFO 11917 [egg:core] dump config after ready, 6ms
+2020-04-09 18:00:16,487 INFO 14735 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 18:00:16,517 INFO 14735 [egg-multipart] stream mode enable
+2020-04-09 18:00:16,558 INFO 14735 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-09 18:00:16,560 INFO 14735 [egg-security] use methodnoallow middleware
+2020-04-09 18:00:16,560 INFO 14735 [egg-security] use noopen middleware
+2020-04-09 18:00:16,561 INFO 14735 [egg-security] use nosniff middleware
+2020-04-09 18:00:16,561 INFO 14735 [egg-security] use xssProtection middleware
+2020-04-09 18:00:16,561 INFO 14735 [egg-security] use xframe middleware
+2020-04-09 18:00:16,562 INFO 14735 [egg-security] use dta middleware
+2020-04-09 18:00:16,562 INFO 14735 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 18:00:16,578 INFO 14735 [egg:core] dump config after load, 6ms
+2020-04-09 18:00:16,700 INFO 14735 [egg-watcher:application] watcher start success
+2020-04-09 18:00:16,919 INFO 14735 [egg:core] dump config after ready, 4ms
+2020-04-09 21:04:08,063 INFO 12205 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 21:04:08,089 INFO 12205 [egg-multipart] stream mode enable
+2020-04-09 21:04:08,126 INFO 12205 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/sugo-portal-app/server/dist/app/public
+2020-04-09 21:04:08,128 INFO 12205 [egg-security] use methodnoallow middleware
+2020-04-09 21:04:08,129 INFO 12205 [egg-security] use noopen middleware
+2020-04-09 21:04:08,129 INFO 12205 [egg-security] use nosniff middleware
+2020-04-09 21:04:08,129 INFO 12205 [egg-security] use xssProtection middleware
+2020-04-09 21:04:08,130 INFO 12205 [egg-security] use xframe middleware
+2020-04-09 21:04:08,130 INFO 12205 [egg-security] use dta middleware
+2020-04-09 21:04:08,130 INFO 12205 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 21:04:08,139 INFO 12205 [egg:core] dump config after load, 7ms
+2020-04-09 21:04:08,303 INFO 12205 [egg-watcher:application] watcher start success
+2020-04-09 21:04:08,519 INFO 12205 [egg:core] dump config after ready, 5ms
+2020-04-10 00:00:00,029 INFO 12205 [egg-logrotator] clean all log before 31 days
+2020-04-10 00:00:01,091 INFO 12205 [egg-logrotator] broadcast log-reload
+2020-04-10 00:00:01,091 INFO 12205 [egg-logrotator] rotate files success by DayRotator, files ["/home/asd/asd/sugo-portal-app/server/logs/common-error.log -> /home/asd/asd/sugo-portal-app/server/logs/common-error.log.2020-04-09","/home/asd/asd/sugo-portal-app/server/logs/midway-web.log -> /home/asd/asd/sugo-portal-app/server/logs/midway-web.log.2020-04-09","/home/asd/asd/sugo-portal-app/server/logs/midway-core.log -> /home/asd/asd/sugo-portal-app/server/logs/midway-core.log.2020-04-09","/home/asd/asd/sugo-portal-app/server/logs/egg-schedule.log -> /home/asd/asd/sugo-portal-app/server/logs/egg-schedule.log.2020-04-09","/home/asd/asd/sugo-portal-app/server/logs/midway-agent.log -> /home/asd/asd/sugo-portal-app/server/logs/midway-agent.log.2020-04-09"]

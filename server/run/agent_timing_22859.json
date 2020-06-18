@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Application Start",
+    "start": 1592459805397,
+    "end": 1592459808926,
+    "duration": 3529,
+    "pid": 22859,
+    "index": 0
+  },
+  {
+    "name": "Load Plugin",
+    "start": 1592459805400,
+    "end": 1592459807600,
+    "duration": 2200,
+    "pid": 22859,
+    "index": 1
+  },
+  {
+    "name": "Load Config",
+    "start": 1592459807601,
+    "end": 1592459807628,
+    "duration": 27,
+    "pid": 22859,
+    "index": 2
+  },
+  {
+    "name": "Require(0) config/config.default.ts",
+    "start": 1592459807601,
+    "end": 1592459807620,
+    "duration": 19,
+    "pid": 22859,
+    "index": 3
+  },
+  {
+    "name": "Require(1) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-session/config/config.default.js",
+    "start": 1592459807620,
+    "end": 1592459807621,
+    "duration": 1,
+    "pid": 22859,
+    "index": 4
+  },
+  {
+    "name": "Require(2) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.default.js",
+    "start": 1592459807621,
+    "end": 1592459807621,
+    "duration": 0,
+    "pid": 22859,
+    "index": 5
+  },
+  {
+    "name": "Require(3) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-jsonp/config/config.default.js",
+    "start": 1592459807621,
+    "end": 1592459807621,
+    "duration": 0,
+    "pid": 22859,
+    "index": 6
+  },
+  {
+    "name": "Require(4) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-onerror/config/config.default.js",
+    "start": 1592459807621,
+    "end": 1592459807622,
+    "duration": 1,
+    "pid": 22859,
+    "index": 7
+  },
+  {
+    "name": "Require(5) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-i18n/config/config.default.js",
+    "start": 1592459807622,
+    "end": 1592459807622,
+    "duration": 0,
+    "pid": 22859,
+    "index": 8
+  },
+  {
+    "name": "Require(6) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-watcher/config/config.default.js",
+    "start": 1592459807622,
+    "end": 1592459807622,
+    "duration": 0,
+    "pid": 22859,
+    "index": 9
+  },
+  {
+    "name": "Require(7) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-schedule/config/config.default.js",
+    "start": 1592459807622,
+    "end": 1592459807622,
+    "duration": 0,
+    "pid": 22859,
+    "index": 10
+  },
+  {
+    "name": "Require(8) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-multipart/config/config.default.js",
+    "start": 1592459807623,
+    "end": 1592459807623,
+    "duration": 0,
+    "pid": 22859,
+    "index": 11
+  },
+  {
+    "name": "Require(9) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-development/config/config.default.js",
+    "start": 1592459807623,
+    "end": 1592459807623,
+    "duration": 0,
+    "pid": 22859,
+    "index": 12
+  },
+  {
+    "name": "Require(10) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-logrotator/config/config.default.js",
+    "start": 1592459807623,
+    "end": 1592459807623,
+    "duration": 0,
+    "pid": 22859,
+    "index": 13
+  },
+  {
+    "name": "Require(11) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-static/config/config.default.js",
+    "start": 1592459807623,
+    "end": 1592459807624,
+    "duration": 1,
+    "pid": 22859,
+    "index": 14
+  },
+  {
+    "name": "Require(12) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-view/config/config.default.js",
+    "start": 1592459807624,
+    "end": 1592459807624,
+    "duration": 0,
+    "pid": 22859,
+    "index": 15
+  },
+  {
+    "name": "Require(13) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-cors/config/config.default.js",
+    "start": 1592459807624,
+    "end": 1592459807624,
+    "duration": 0,
+    "pid": 22859,
+    "index": 16
+  },
+  {
+    "name": "Require(14) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "start": 1592459807624,
+    "end": 1592459807624,
+    "duration": 0,
+    "pid": 22859,
+    "index": 17
+  },
+  {
+    "name": "Require(15) /home/asd/asd/museum-audiofilemanager/server/node_modules/midway-web/config/config.default.js",
+    "start": 1592459807626,
+    "end": 1592459807626,
+    "duration": 0,
+    "pid": 22859,
+    "index": 18
+  },
+  {
+    "name": "Require(16) config/config.default.ts",
+    "start": 1592459807626,
+    "end": 1592459807626,
+    "duration": 0,
+    "pid": 22859,
+    "index": 19
+  },
+  {
+    "name": "Require(17) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.local.js",
+    "start": 1592459807626,
+    "end": 1592459807626,
+    "duration": 0,
+    "pid": 22859,
+    "index": 20
+  },
+  {
+    "name": "Require(18) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-watcher/config/config.local.js",
+    "start": 1592459807627,
+    "end": 1592459807627,
+    "duration": 0,
+    "pid": 22859,
+    "index": 21
+  },
+  {
+    "name": "Require(19) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-view/config/config.local.js",
+    "start": 1592459807627,
+    "end": 1592459807627,
+    "duration": 0,
+    "pid": 22859,
+    "index": 22
+  },
+  {
+    "name": "Require(20) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.local.js",
+    "start": 1592459807627,
+    "end": 1592459807627,
+    "duration": 0,
+    "pid": 22859,
+    "index": 23
+  },
+  {
+    "name": "Require(21) /home/asd/asd/museum-audiofilemanager/server/node_modules/midway-web/config/config.local.js",
+    "start": 1592459807627,
+    "end": 1592459807627,
+    "duration": 0,
+    "pid": 22859,
+    "index": 24
+  },
+  {
+    "name": "Load extend/agent.js",
+    "start": 1592459807628,
+    "end": 1592459807650,
+    "duration": 22,
+    "pid": 22859,
+    "index": 25
+  },
+  {
+    "name": "Require(22) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/app/extend/agent.js",
+    "start": 1592459807629,
+    "end": 1592459807629,
+    "duration": 0,
+    "pid": 22859,
+    "index": 26
+  },
+  {
+    "name": "Require(23) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-schedule/app/extend/agent.js",
+    "start": 1592459807629,
+    "end": 1592459807649,
+    "duration": 20,
+    "pid": 22859,
+    "index": 27
+  },
+  {
+    "name": "Require(24) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-logrotator/app/extend/agent.js",
+    "start": 1592459807649,
+    "end": 1592459807650,
+    "duration": 1,
+    "pid": 22859,
+    "index": 28
+  },
+  {
+    "name": "Load extend/context.js",
+    "start": 1592459808255,
+    "end": 1592459808657,
+    "duration": 402,
+    "pid": 22859,
+    "index": 29
+  },
+  {
+    "name": "Require(25) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/app/extend/context.js",
+    "start": 1592459808255,
+    "end": 1592459808408,
+    "duration": 153,
+    "pid": 22859,
+    "index": 30
+  },
+  {
+    "name": "Require(26) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-jsonp/app/extend/context.js",
+    "start": 1592459808408,
+    "end": 1592459808456,
+    "duration": 48,
+    "pid": 22859,
+    "index": 31
+  },
+  {
+    "name": "Require(27) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-i18n/app/extend/context.js",
+    "start": 1592459808457,
+    "end": 1592459808476,
+    "duration": 19,
+    "pid": 22859,
+    "index": 32
+  },
+  {
+    "name": "Require(28) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-multipart/app/extend/context.js",
+    "start": 1592459808476,
+    "end": 1592459808615,
+    "duration": 139,
+    "pid": 22859,
+    "index": 33
+  },
+  {
+    "name": "Require(29) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-view/app/extend/context.js",
+    "start": 1592459808615,
+    "end": 1592459808627,
+    "duration": 12,
+    "pid": 22859,
+    "index": 34
+  },
+  {
+    "name": "Require(30) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg/app/extend/context.js",
+    "start": 1592459808627,
+    "end": 1592459808627,
+    "duration": 0,
+    "pid": 22859,
+    "index": 35
+  },
+  {
+    "name": "Require(31) /home/asd/asd/museum-audiofilemanager/server/node_modules/midway-web/app/extend/context.js",
+    "start": 1592459808627,
+    "end": 1592459808657,
+    "duration": 30,
+    "pid": 22859,
+    "index": 36
+  },
+  {
+    "name": "Load agent.js",
+    "start": 1592459808657,
+    "end": 1592459808836,
+    "duration": 179,
+    "pid": 22859,
+    "index": 37
+  },
+  {
+    "name": "Require(32) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/agent.js",
+    "start": 1592459808658,
+    "end": 1592459808669,
+    "duration": 11,
+    "pid": 22859,
+    "index": 38
+  },
+  {
+    "name": "Require(33) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-onerror/agent.js",
+    "start": 1592459808670,
+    "end": 1592459808670,
+    "duration": 0,
+    "pid": 22859,
+    "index": 39
+  },
+  {
+    "name": "Require(34) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-watcher/agent.js",
+    "start": 1592459808670,
+    "end": 1592459808697,
+    "duration": 27,
+    "pid": 22859,
+    "index": 40
+  },
+  {
+    "name": "Require(35) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-schedule/agent.js",
+    "start": 1592459808697,
+    "end": 1592459808725,
+    "duration": 28,
+    "pid": 22859,
+    "index": 41
+  },
+  {
+    "name": "Require(36) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-development/agent.js",
+    "start": 1592459808725,
+    "end": 1592459808809,
+    "duration": 84,
+    "pid": 22859,
+    "index": 42
+  },
+  {
+    "name": "Require(37) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-logrotator/agent.js",
+    "start": 1592459808809,
+    "end": 1592459808814,
+    "duration": 5,
+    "pid": 22859,
+    "index": 43
+  },
+  {
+    "name": "Require(38) /home/asd/asd/museum-audiofilemanager/server/node_modules/midway-schedule/agent.js",
+    "start": 1592459808814,
+    "end": 1592459808825,
+    "duration": 11,
+    "pid": 22859,
+    "index": 44
+  },
+  {
+    "name": "Require(39) /home/asd/asd/museum-audiofilemanager/server/node_modules/egg/agent.js",
+    "start": 1592459808825,
+    "end": 1592459808836,
+    "duration": 11,
+    "pid": 22859,
+    "index": 45
+  },
+  {
+    "name": "Before Start in /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-watcher/lib/init.js:15:14",
+    "start": 1592459808843,
+    "end": 1592459808916,
+    "duration": 73,
+    "pid": 22859,
+    "index": 46
+  },
+  {
+    "name": "Before Start in /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-schedule/agent.js:12:9",
+    "start": 1592459808844,
+    "end": 1592459808875,
+    "duration": 31,
+    "pid": 22859,
+    "index": 47
+  },
+  {
+    "name": "Before Start in /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-development/agent.js:12:9",
+    "start": 1592459808844,
+    "end": 1592459808925,
+    "duration": 81,
+    "pid": 22859,
+    "index": 48
+  },
+  {
+    "name": "Before Start in /home/asd/asd/museum-audiofilemanager/server/node_modules/midway-web/dist/loader/loader.js:41:18",
+    "start": 1592459808845,
+    "end": 1592459808915,
+    "duration": 70,
+    "pid": 22859,
+    "index": 49
+  }
+]

@@ -1,0 +1,8 @@
+digraph G {
+  "homeController" [ label = "homeController(HomeController)
+scope:Request", fontsize = 10 ];
+  "ctx";
+  "DB" [ label = "DB(DB)
+scope:Singleton", fontsize = 10 ];
+  "homeController" -> "ctx" [ label = "properties", fontsize = 8 ];
+}

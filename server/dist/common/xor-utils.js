@@ -1,0 +1,58 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+/*
+* 异或base64加密
+* xjandwqz
+* 2017-09-16
+*/
+const sn = 'sugo_tindex_des_cipher_jdbc_20170914';
+const xorUtils = {
+    encrypt(str) {
+        const snNum = [];
+        let result = '';
+        let temp = '';
+        let hash = 0;
+        for (let i = 0; i < sn.length; i++) {
+            hash += sn.charCodeAt(i);
+        }
+        hash = hash % 128;
+        for (let i = 0; i < str.length; i++) {
+            // tslint:disable-next-line:no-bitwise
+            snNum.push((str.charCodeAt(i)) ^ hash);
+        }
+        for (const v of snNum) {
+            if (v < 10) {
+                temp = '00' + v;
+            }
+            else {
+                if (v < 100) {
+                    temp = '0' + v;
+                }
+                else {
+                    temp = v + '';
+                }
+            }
+            result += temp;
+        }
+        const buf = new Buffer(result);
+        return buf.toString('base64');
+    },
+    decrypt(str) {
+        const buf = new Buffer(str, 'base64');
+        str = buf.toString();
+        let hash = 0;
+        for (let i = 0; i < sn.length; i++) {
+            hash += sn.charCodeAt(i);
+        }
+        hash = hash % 128;
+        const snNum = [];
+        for (let i = 0; i < str.length / 3; i++) {
+            const n = parseInt(str.substring(i * 3, i * 3 + 3), 10);
+            // tslint:disable-next-line:no-bitwise
+            snNum[i] = (n ^ hash);
+        }
+        return String.fromCharCode(...snNum);
+    }
+};
+exports.default = xorUtils;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoieG9yLXV0aWxzLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2NvbW1vbi94b3ItdXRpbHMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7OztFQUlFO0FBQ0YsTUFBTSxFQUFFLEdBQUcsc0NBQXNDLENBQUE7QUFDakQsTUFBTSxRQUFRLEdBQUc7SUFDZixPQUFPLENBQUMsR0FBVztRQUNqQixNQUFNLEtBQUssR0FBRyxFQUFFLENBQUE7UUFDaEIsSUFBSSxNQUFNLEdBQUcsRUFBRSxDQUFBO1FBQ2YsSUFBSSxJQUFJLEdBQUcsRUFBRSxDQUFBO1FBQ2IsSUFBSSxJQUFJLEdBQUcsQ0FBQyxDQUFBO1FBQ1osS0FBSyxJQUFJLENBQUMsR0FBRyxDQUFDLEVBQUUsQ0FBQyxHQUFHLEVBQUUsQ0FBQyxNQUFNLEVBQUUsQ0FBQyxFQUFFLEVBQUU7WUFDbEMsSUFBSSxJQUFJLEVBQUUsQ0FBQyxVQUFVLENBQUMsQ0FBQyxDQUFDLENBQUE7U0FDekI7UUFDRCxJQUFJLEdBQUcsSUFBSSxHQUFHLEdBQUcsQ0FBQTtRQUNqQixLQUFLLElBQUksQ0FBQyxHQUFHLENBQUMsRUFBRSxDQUFDLEdBQUcsR0FBRyxDQUFDLE1BQU0sRUFBRSxDQUFDLEVBQUUsRUFBRTtZQUNuQyxzQ0FBc0M7WUFDdEMsS0FBSyxDQUFDLElBQUksQ0FBQyxDQUFDLEdBQUcsQ0FBQyxVQUFVLENBQUMsQ0FBQyxDQUFDLENBQUMsR0FBRyxJQUFJLENBQUMsQ0FBQTtTQUN2QztRQUNELEtBQUssTUFBTSxDQUFDLElBQUksS0FBSyxFQUFFO1lBQ3JCLElBQUksQ0FBQyxHQUFHLEVBQUUsRUFBRTtnQkFDVixJQUFJLEdBQUcsSUFBSSxHQUFHLENBQUMsQ0FBQTthQUNoQjtpQkFBTTtnQkFDTCxJQUFJLENBQUMsR0FBRyxHQUFHLEVBQUU7b0JBQ1gsSUFBSSxHQUFHLEdBQUcsR0FBRyxDQUFDLENBQUE7aUJBQ2Y7cUJBQU07b0JBQ0wsSUFBSSxHQUFHLENBQUMsR0FBRyxFQUFFLENBQUE7aUJBQ2Q7YUFDRjtZQUNELE1BQU0sSUFBSSxJQUFJLENBQUE7U0FDZjtRQUNELE1BQU0sR0FBRyxHQUFHLElBQUksTUFBTSxDQUFDLE1BQU0sQ0FBQyxDQUFBO1FBQzlCLE9BQU8sR0FBRyxDQUFDLFFBQVEsQ0FBQyxRQUFRLENBQUMsQ0FBQTtJQUMvQixDQUFDO0lBQ0QsT0FBTyxDQUFDLEdBQVc7UUFDakIsTUFBTSxHQUFHLEdBQUcsSUFBSSxNQUFNLENBQUMsR0FBRyxFQUFFLFFBQVEsQ0FBQyxDQUFBO1FBQ3JDLEdBQUcsR0FBRyxHQUFHLENBQUMsUUFBUSxFQUFFLENBQUE7UUFDcEIsSUFBSSxJQUFJLEdBQUcsQ0FBQyxDQUFBO1FBQ1osS0FBSyxJQUFJLENBQUMsR0FBRyxDQUFDLEVBQUUsQ0FBQyxHQUFHLEVBQUUsQ0FBQyxNQUFNLEVBQUUsQ0FBQyxFQUFFLEVBQUU7WUFDbEMsSUFBSSxJQUFJLEVBQUUsQ0FBQyxVQUFVLENBQUMsQ0FBQyxDQUFDLENBQUE7U0FDekI7UUFDRCxJQUFJLEdBQUcsSUFBSSxHQUFHLEdBQUcsQ0FBQTtRQUNqQixNQUFNLEtBQUssR0FBRyxFQUFFLENBQUE7UUFDaEIsS0FBSyxJQUFJLENBQUMsR0FBRyxDQUFDLEVBQUUsQ0FBQyxHQUFHLEdBQUcsQ0FBQyxNQUFNLEdBQUcsQ0FBQyxFQUFFLENBQUMsRUFBRSxFQUFFO1lBQ3ZDLE1BQU0sQ0FBQyxHQUFHLFFBQVEsQ0FBQyxHQUFHLENBQUMsU0FBUyxDQUFDLENBQUMsR0FBRyxDQUFDLEVBQUUsQ0FBQyxHQUFHLENBQUMsR0FBRyxDQUFDLENBQUMsRUFBRSxFQUFFLENBQUMsQ0FBQTtZQUN2RCxzQ0FBc0M7WUFDdEMsS0FBSyxDQUFDLENBQUMsQ0FBQyxHQUFHLENBQUMsQ0FBQyxHQUFHLElBQUksQ0FBQyxDQUFBO1NBQ3RCO1FBQ0QsT0FBTyxNQUFNLENBQUMsWUFBWSxDQUFDLEdBQUcsS0FBSyxDQUFDLENBQUE7SUFDdEMsQ0FBQztDQUNGLENBQUE7QUFDRCxrQkFBZSxRQUFRLENBQUEifQ==

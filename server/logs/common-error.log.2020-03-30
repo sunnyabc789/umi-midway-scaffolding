@@ -1,0 +1,32 @@
+2020-03-27 16:54:57,176 ERROR 10241 [-/127.0.0.1/-/2ms GET /app/sugo-app] nodejs.TypeError: Cannot destructure property `name` of 'undefined' or 'null'.
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/application.js:36:30)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 10241
+hostname: asd06
+
+2020-03-27 16:54:57,188 ERROR 10241 [-/127.0.0.1/-/5ms GET /app/sugo-smart-recommend] nodejs.TypeError: Cannot destructure property `user` of 'undefined' or 'null'.
+    at SugoExtappClickcountController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/click-count.js:18:35)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 10241
+hostname: asd06
+
+2020-03-27 17:00:36,843 ERROR 10241 [-/127.0.0.1/-/1ms GET /app/sugo-app] nodejs.TypeError: Cannot destructure property `name` of 'undefined' or 'null'.
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/application.js:36:30)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 10241
+hostname: asd06
+
+2020-03-27 17:00:36,847 ERROR 10241 [-/127.0.0.1/-/0ms GET /app/sugo-smart-recommend] nodejs.TypeError: Cannot destructure property `user` of 'undefined' or 'null'.
+    at SugoExtappClickcountController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/click-count.js:18:35)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 10241
+hostname: asd06
+

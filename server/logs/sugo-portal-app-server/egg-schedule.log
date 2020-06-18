@@ -1,0 +1,510 @@
+2020-04-01 04:30:00,003 INFO 9382 [Job#15856866000033278172086722801] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2020-04-01 04:30:00,006 INFO 9382 [Job#15856866000033278172086722801] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 3ms
+2020-04-01 04:30:00,007 INFO 9364 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 86399995ms at 2020-04-02 04:30:00.002
+2020-04-01 10:10:43,714 INFO 8729 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65956289ms at 2020-04-02 04:30:00.003
+2020-04-01 10:10:43,714 INFO 8729 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49756286ms at 2020-04-02 00:00:00.000
+2020-04-01 10:10:43,715 INFO 8729 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49757286ms at 2020-04-02 00:00:01.001
+2020-04-01 10:10:43,212 INFO 8750 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 10:10:43,212 INFO 8750 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 10:10:43,212 INFO 8750 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 13:53:03,565 INFO 11414 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 52616438ms at 2020-04-02 04:30:00.003
+2020-04-01 13:53:03,565 INFO 11414 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 36416435ms at 2020-04-02 00:00:00.000
+2020-04-01 13:53:03,565 INFO 11414 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 36417435ms at 2020-04-02 00:00:01.000
+2020-04-01 13:53:03,146 INFO 11427 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 13:53:03,146 INFO 11427 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 13:53:03,146 INFO 11427 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 14:32:29,087 INFO 18144 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50250916ms at 2020-04-02 04:30:00.003
+2020-04-01 14:32:29,087 INFO 18144 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 34050913ms at 2020-04-02 00:00:00.000
+2020-04-01 14:32:29,088 INFO 18144 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34051912ms at 2020-04-02 00:00:01.000
+2020-04-01 14:32:28,660 INFO 18156 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 14:32:28,660 INFO 18156 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 14:32:28,660 INFO 18156 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 15:07:09,683 INFO 24209 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48170320ms at 2020-04-02 04:30:00.003
+2020-04-01 15:07:09,683 INFO 24209 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 31970317ms at 2020-04-02 00:00:00.000
+2020-04-01 15:07:09,683 INFO 24209 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 31971317ms at 2020-04-02 00:00:01.000
+2020-04-01 15:07:09,250 INFO 24224 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 15:07:09,250 INFO 24224 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 15:07:09,250 INFO 24224 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 16:07:50,367 INFO 30251 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 16:07:50,367 INFO 30251 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 16:07:50,367 INFO 30251 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 16:10:24,101 INFO 30451 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 16:10:24,101 INFO 30451 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 16:10:24,101 INFO 30451 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 16:23:03,332 INFO 31503 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 16:23:03,332 INFO 31503 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 16:23:03,332 INFO 31503 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 16:25:10,061 INFO 31772 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 16:25:10,061 INFO 31772 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 16:25:10,061 INFO 31772 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 16:27:33,513 INFO 31983 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 16:27:33,513 INFO 31983 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 16:27:33,513 INFO 31983 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 16:27:38,137 INFO 32008 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 16:27:38,137 INFO 32008 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 16:27:38,137 INFO 32008 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 16:27:45,853 INFO 32032 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 16:27:45,853 INFO 32032 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 16:27:45,853 INFO 32032 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 16:32:36,410 INFO 32738 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 43043593ms at 2020-04-02 04:30:00.003
+2020-04-01 16:32:36,410 INFO 32738 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 26843590ms at 2020-04-02 00:00:00.000
+2020-04-01 16:32:36,411 INFO 32738 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26844590ms at 2020-04-02 00:00:01.001
+2020-04-01 16:32:36,031 INFO 32759 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 16:32:36,031 INFO 32759 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 16:32:36,032 INFO 32759 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 16:34:23,323 INFO 491 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 16:34:23,323 INFO 491 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 16:34:23,323 INFO 491 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 16:34:42,365 INFO 550 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 16:34:42,365 INFO 550 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 16:34:42,365 INFO 550 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 20:02:41,230 INFO 20754 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 30438774ms at 2020-04-02 04:30:00.003
+2020-04-01 20:02:41,230 INFO 20754 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 14238770ms at 2020-04-02 00:00:00.000
+2020-04-01 20:02:41,230 INFO 20754 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 14239770ms at 2020-04-02 00:00:01.000
+2020-04-01 20:02:40,804 INFO 20775 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 20:02:40,804 INFO 20775 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 20:02:40,804 INFO 20775 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 20:05:39,131 INFO 21422 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 20:05:39,131 INFO 21422 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 20:05:39,131 INFO 21422 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 20:06:01,963 INFO 21476 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 20:06:01,964 INFO 21476 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 20:06:01,964 INFO 21476 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 20:07:10,044 INFO 21646 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 20:07:10,044 INFO 21646 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 20:07:10,045 INFO 21646 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 20:52:05,080 INFO 25688 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 20:52:05,080 INFO 25688 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 20:52:05,080 INFO 25688 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 20:52:59,030 INFO 25824 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 20:52:59,030 INFO 25824 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 20:52:59,030 INFO 25824 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 20:55:56,615 INFO 26279 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 20:55:56,615 INFO 26279 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 20:55:56,615 INFO 26279 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 20:58:08,201 INFO 26644 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 20:58:08,201 INFO 26644 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 20:58:08,201 INFO 26644 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 21:06:26,027 INFO 27508 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 21:06:26,027 INFO 27508 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 21:06:26,027 INFO 27508 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 21:07:20,509 INFO 27692 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 26559494ms at 2020-04-02 04:30:00.003
+2020-04-01 21:07:20,509 INFO 27692 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 10359491ms at 2020-04-02 00:00:00.000
+2020-04-01 21:07:20,509 INFO 27692 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 10360491ms at 2020-04-02 00:00:01.000
+2020-04-01 21:07:20,109 INFO 27706 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 21:07:20,109 INFO 27706 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 21:07:20,109 INFO 27706 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 21:10:03,579 INFO 28069 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 26396424ms at 2020-04-02 04:30:00.003
+2020-04-01 21:10:03,579 INFO 28069 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 10196421ms at 2020-04-02 00:00:00.000
+2020-04-01 21:10:03,579 INFO 28069 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 10197421ms at 2020-04-02 00:00:01.000
+2020-04-01 21:10:03,201 INFO 28085 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 21:10:03,201 INFO 28085 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 21:10:03,201 INFO 28085 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 21:14:53,083 INFO 28635 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 26106920ms at 2020-04-02 04:30:00.003
+2020-04-01 21:14:53,083 INFO 28635 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 9906917ms at 2020-04-02 00:00:00.000
+2020-04-01 21:14:53,083 INFO 28635 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 9907917ms at 2020-04-02 00:00:01.000
+2020-04-01 21:14:52,761 INFO 28651 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 21:14:52,761 INFO 28651 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 21:14:52,761 INFO 28651 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 21:15:54,792 INFO 28798 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 21:15:54,792 INFO 28798 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 21:15:54,792 INFO 28798 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 21:17:15,378 INFO 29113 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 25964625ms at 2020-04-02 04:30:00.003
+2020-04-01 21:17:15,378 INFO 29113 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 9764622ms at 2020-04-02 00:00:00.000
+2020-04-01 21:17:15,378 INFO 29113 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 9765622ms at 2020-04-02 00:00:01.000
+2020-04-01 21:17:14,988 INFO 29132 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 21:17:14,988 INFO 29132 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 21:17:14,988 INFO 29132 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-01 21:18:34,442 INFO 29325 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-01 21:18:34,442 INFO 29325 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-01 21:18:34,442 INFO 29325 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-02 10:07:36,391 INFO 24269 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 66143612ms at 2020-04-03 04:30:00.003
+2020-04-02 10:07:36,391 INFO 24269 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49943609ms at 2020-04-03 00:00:00.000
+2020-04-02 10:07:36,391 INFO 24269 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49944609ms at 2020-04-03 00:00:01.000
+2020-04-02 10:07:36,007 INFO 24282 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-02 10:07:36,007 INFO 24282 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-02 10:07:36,007 INFO 24282 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-02 11:41:30,076 INFO 4762 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 60509927ms at 2020-04-03 04:30:00.003
+2020-04-02 11:41:30,076 INFO 4762 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 44309924ms at 2020-04-03 00:00:00.000
+2020-04-02 11:41:30,076 INFO 4762 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 44310924ms at 2020-04-03 00:00:01.000
+2020-04-02 11:41:29,695 INFO 4781 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-02 11:41:29,695 INFO 4781 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-02 11:41:29,695 INFO 4781 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-02 14:31:08,792 INFO 27766 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-02 14:31:08,792 INFO 27766 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-02 14:31:08,792 INFO 27766 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-02 14:31:13,989 INFO 27740 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50326015ms at 2020-04-03 04:30:00.003
+2020-04-02 14:31:13,989 INFO 27740 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 34126011ms at 2020-04-03 00:00:00.000
+2020-04-02 14:31:13,989 INFO 27740 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34127011ms at 2020-04-03 00:00:01.000
+2020-04-02 16:12:03,025 INFO 15524 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-02 16:12:03,025 INFO 15524 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-02 16:12:03,026 INFO 15524 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-02 16:12:06,570 INFO 15485 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 44273432ms at 2020-04-03 04:30:00.002
+2020-04-02 16:12:06,570 INFO 15485 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 28073430ms at 2020-04-03 00:00:00.000
+2020-04-02 16:12:06,571 INFO 15485 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 28074430ms at 2020-04-03 00:00:01.001
+2020-04-02 17:00:16,463 INFO 22010 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-02 17:00:16,463 INFO 22010 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-02 17:00:16,463 INFO 22010 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-02 17:00:19,746 INFO 21996 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 41380257ms at 2020-04-03 04:30:00.003
+2020-04-02 17:00:19,746 INFO 21996 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25180254ms at 2020-04-03 00:00:00.000
+2020-04-02 17:00:19,746 INFO 21996 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25181254ms at 2020-04-03 00:00:01.000
+2020-04-02 17:42:00,185 INFO 28665 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-02 17:42:00,185 INFO 28665 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-02 17:42:00,185 INFO 28665 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-02 17:42:00,574 INFO 28652 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38879429ms at 2020-04-03 04:30:00.002
+2020-04-02 17:42:00,574 INFO 28652 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22679426ms at 2020-04-03 00:00:00.000
+2020-04-02 17:42:00,574 INFO 28652 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22680426ms at 2020-04-03 00:00:01.000
+2020-04-03 09:27:19,097 INFO 19824 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-03 09:27:19,097 INFO 19824 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-03 09:27:19,097 INFO 19824 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-03 09:27:24,892 INFO 19765 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 68555111ms at 2020-04-04 04:30:00.003
+2020-04-03 09:27:24,892 INFO 19765 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 52355108ms at 2020-04-04 00:00:00.000
+2020-04-03 09:27:24,893 INFO 19765 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 52356108ms at 2020-04-04 00:00:01.001
+2020-04-03 15:56:05,405 INFO 3647 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-03 15:56:05,405 INFO 3647 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-03 15:56:05,406 INFO 3647 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-03 15:56:56,760 INFO 3927 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-03 15:56:56,760 INFO 3927 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-03 15:56:56,760 INFO 3927 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-03 16:01:59,600 INFO 4969 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 44880404ms at 2020-04-04 04:30:00.004
+2020-04-03 16:01:59,600 INFO 4969 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 28680400ms at 2020-04-04 00:00:00.000
+2020-04-03 16:01:59,601 INFO 4969 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 28681400ms at 2020-04-04 00:00:01.001
+2020-04-03 16:01:58,960 INFO 4997 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-03 16:01:58,960 INFO 4997 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-03 16:01:58,960 INFO 4997 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-03 16:29:09,047 INFO 8516 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-03 16:29:09,047 INFO 8516 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-03 16:29:09,048 INFO 8516 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-03 16:30:11,112 INFO 8759 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-03 16:30:11,112 INFO 8759 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-03 16:30:11,112 INFO 8759 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-03 16:31:03,189 INFO 8860 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-03 16:31:03,190 INFO 8860 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-03 16:31:03,190 INFO 8860 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 14:27:40,542 INFO 23309 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50539461ms at 2020-04-08 04:30:00.003
+2020-04-07 14:27:40,542 INFO 23309 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 34339458ms at 2020-04-08 00:00:00.000
+2020-04-07 14:27:40,542 INFO 23309 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34340458ms at 2020-04-08 00:00:01.000
+2020-04-07 14:27:40,126 INFO 23326 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 14:27:40,126 INFO 23326 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 14:27:40,126 INFO 23326 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 14:29:01,693 INFO 23611 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 14:29:01,693 INFO 23611 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 14:29:01,693 INFO 23611 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 14:29:41,385 INFO 23718 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 14:29:41,385 INFO 23718 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 14:29:41,385 INFO 23718 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 14:29:49,062 INFO 23776 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 14:29:49,062 INFO 23776 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 14:29:49,062 INFO 23776 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 14:30:27,994 INFO 23881 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 14:30:27,994 INFO 23881 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 14:30:27,994 INFO 23881 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 14:30:45,172 INFO 23946 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 14:30:45,172 INFO 23946 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 14:30:45,172 INFO 23946 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 14:31:07,253 INFO 24025 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 14:31:07,253 INFO 24025 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 14:31:07,253 INFO 24025 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 14:34:04,108 INFO 24283 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 14:34:04,108 INFO 24283 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 14:34:04,108 INFO 24283 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 14:35:45,510 INFO 24489 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 14:35:45,510 INFO 24489 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 14:35:45,510 INFO 24489 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 14:36:18,790 INFO 24599 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 14:36:18,790 INFO 24599 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 14:36:18,790 INFO 24599 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 14:38:51,257 INFO 24866 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 14:38:51,257 INFO 24866 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 14:38:51,257 INFO 24866 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 14:39:02,587 INFO 24917 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 14:39:02,587 INFO 24917 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 14:39:02,587 INFO 24917 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 15:33:52,448 INFO 32187 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 15:33:52,448 INFO 32187 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 15:33:52,448 INFO 32187 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 15:33:55,339 INFO 32236 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 15:33:55,339 INFO 32236 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 15:33:55,339 INFO 32236 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 15:34:59,691 INFO 32401 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 15:34:59,691 INFO 32401 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 15:34:59,691 INFO 32401 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 15:36:22,297 INFO 32601 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 15:36:22,297 INFO 32601 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 15:36:22,297 INFO 32601 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 15:38:50,028 INFO 427 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 15:38:50,028 INFO 427 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 15:38:50,028 INFO 427 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 15:40:57,559 INFO 666 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 15:40:57,559 INFO 666 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 15:40:57,559 INFO 666 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 15:41:20,830 INFO 742 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 15:41:20,830 INFO 742 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 15:41:20,830 INFO 742 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 15:41:52,662 INFO 874 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 15:41:52,662 INFO 874 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 15:41:52,662 INFO 874 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 15:42:38,779 INFO 985 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 15:42:38,779 INFO 985 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 15:42:38,779 INFO 985 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 15:43:35,358 INFO 1163 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 15:43:35,358 INFO 1163 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 15:43:35,358 INFO 1163 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 15:43:51,687 INFO 1226 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 15:43:51,687 INFO 1226 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 15:43:51,687 INFO 1226 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 15:43:55,486 INFO 1271 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 15:43:55,486 INFO 1271 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 15:43:55,486 INFO 1271 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 15:44:02,897 INFO 1304 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 15:44:02,897 INFO 1304 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 15:44:02,897 INFO 1304 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 15:48:18,058 INFO 1968 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 15:48:18,058 INFO 1968 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 15:48:18,058 INFO 1968 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 15:49:46,416 INFO 2195 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 15:49:46,416 INFO 2195 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 15:49:46,416 INFO 2195 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 15:50:53,862 INFO 2334 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 15:50:53,862 INFO 2334 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 15:50:53,862 INFO 2334 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 16:06:55,727 INFO 4413 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 16:06:55,727 INFO 4413 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 16:06:55,727 INFO 4413 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 16:11:14,412 INFO 5008 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 16:11:14,412 INFO 5008 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 16:11:14,412 INFO 5008 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 17:16:02,348 INFO 11292 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 40437655ms at 2020-04-08 04:30:00.003
+2020-04-07 17:16:02,348 INFO 11292 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 24237652ms at 2020-04-08 00:00:00.000
+2020-04-07 17:16:02,348 INFO 11292 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 24238652ms at 2020-04-08 00:00:01.000
+2020-04-07 17:16:01,992 INFO 11308 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 17:16:01,992 INFO 11308 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 17:16:01,992 INFO 11308 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 17:47:58,123 INFO 15630 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 17:47:58,123 INFO 15630 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 17:47:58,123 INFO 15630 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 17:48:45,652 INFO 15757 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 17:48:45,652 INFO 15757 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 17:48:45,652 INFO 15757 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 17:48:50,058 INFO 15793 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 17:48:50,058 INFO 15793 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 17:48:50,058 INFO 15793 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 17:51:38,733 INFO 16129 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 17:51:38,733 INFO 16129 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 17:51:38,733 INFO 16129 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 17:52:05,828 INFO 16210 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 17:52:05,828 INFO 16210 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 17:52:05,828 INFO 16210 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 17:52:22,630 INFO 16281 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 17:52:22,630 INFO 16281 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 17:52:22,630 INFO 16281 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 17:52:54,731 INFO 16375 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 17:52:54,731 INFO 16375 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 17:52:54,731 INFO 16375 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 17:53:16,003 INFO 16450 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 17:53:16,003 INFO 16450 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 17:53:16,003 INFO 16450 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 17:53:47,773 INFO 16534 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 17:53:47,773 INFO 16534 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 17:53:47,773 INFO 16534 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 17:57:28,980 INFO 16953 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 17:57:28,980 INFO 16953 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 17:57:28,980 INFO 16953 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 17:58:51,474 INFO 17151 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 17:58:51,474 INFO 17151 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 17:58:51,474 INFO 17151 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 17:59:51,618 INFO 17294 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 17:59:51,618 INFO 17294 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 17:59:51,618 INFO 17294 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 18:03:10,972 INFO 17928 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 18:03:10,972 INFO 17928 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 18:03:10,972 INFO 17928 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 18:03:32,062 INFO 17988 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 18:03:32,062 INFO 17988 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 18:03:32,062 INFO 17988 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 18:03:46,807 INFO 18045 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 18:03:46,807 INFO 18045 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 18:03:46,807 INFO 18045 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 18:03:59,732 INFO 18096 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 18:03:59,732 INFO 18096 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 18:03:59,732 INFO 18096 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 18:12:40,968 INFO 20041 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 18:12:40,968 INFO 20041 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 18:12:40,968 INFO 20041 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 18:19:05,250 INFO 20748 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 18:19:05,250 INFO 20748 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 18:19:05,250 INFO 20748 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 18:33:56,882 INFO 22912 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 35763121ms at 2020-04-08 04:30:00.003
+2020-04-07 18:33:56,882 INFO 22912 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 19563118ms at 2020-04-08 00:00:00.000
+2020-04-07 18:33:56,882 INFO 22912 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 19564118ms at 2020-04-08 00:00:01.000
+2020-04-07 18:33:56,508 INFO 22928 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 18:33:56,508 INFO 22928 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 18:33:56,508 INFO 22928 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 18:35:49,629 INFO 23121 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 18:35:49,629 INFO 23121 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 18:35:49,629 INFO 23121 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 18:57:14,046 INFO 24812 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 18:57:14,046 INFO 24812 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 18:57:14,046 INFO 24812 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 18:58:08,438 INFO 24938 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 18:58:08,438 INFO 24938 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 18:58:08,438 INFO 24938 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 18:58:35,734 INFO 25069 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 18:58:35,734 INFO 25069 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 18:58:35,734 INFO 25069 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 19:00:49,156 INFO 25312 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 19:00:49,156 INFO 25312 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 19:00:49,156 INFO 25312 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 19:01:35,942 INFO 25439 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 19:01:35,942 INFO 25439 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 19:01:35,942 INFO 25439 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 19:02:00,583 INFO 25526 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 19:02:00,583 INFO 25526 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 19:02:00,583 INFO 25526 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-07 19:07:10,071 INFO 26160 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-07 19:07:10,071 INFO 26160 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-07 19:07:10,071 INFO 26160 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 09:49:50,729 INFO 27837 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 09:49:50,729 INFO 27837 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 09:49:50,729 INFO 27837 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 09:49:52,142 INFO 27807 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 67207861ms at 2020-04-09 04:30:00.002
+2020-04-08 09:49:52,142 INFO 27807 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 51007858ms at 2020-04-09 00:00:00.000
+2020-04-08 09:49:52,142 INFO 27807 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 51008858ms at 2020-04-09 00:00:01.000
+2020-04-08 10:38:42,641 INFO 32091 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 64277362ms at 2020-04-09 04:30:00.003
+2020-04-08 10:38:42,642 INFO 32091 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 48077359ms at 2020-04-09 00:00:00.001
+2020-04-08 10:38:42,642 INFO 32091 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 48078358ms at 2020-04-09 00:00:01.000
+2020-04-08 10:38:42,183 INFO 32113 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 10:38:42,183 INFO 32113 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 10:38:42,183 INFO 32113 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 11:06:02,175 INFO 2911 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 62637827ms at 2020-04-09 04:30:00.002
+2020-04-08 11:06:02,176 INFO 2911 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 46437825ms at 2020-04-09 00:00:00.001
+2020-04-08 11:06:02,176 INFO 2911 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 46438824ms at 2020-04-09 00:00:01.000
+2020-04-08 11:06:01,715 INFO 2934 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 11:06:01,715 INFO 2934 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 11:06:01,715 INFO 2934 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 11:13:25,522 INFO 4179 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 11:13:25,523 INFO 4179 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 11:13:25,523 INFO 4179 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 11:18:49,009 INFO 5441 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 61870994ms at 2020-04-09 04:30:00.003
+2020-04-08 11:18:49,009 INFO 5441 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 45670991ms at 2020-04-09 00:00:00.000
+2020-04-08 11:18:49,010 INFO 5441 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 45671991ms at 2020-04-09 00:00:01.001
+2020-04-08 11:18:48,546 INFO 5469 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 11:18:48,546 INFO 5469 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 11:18:48,547 INFO 5469 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 11:20:28,354 INFO 5735 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 11:20:28,354 INFO 5735 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 11:20:28,354 INFO 5735 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-09 17:11:04,403 INFO 7046 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-09 17:11:04,403 INFO 7046 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-09 17:11:04,403 INFO 7046 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-09 17:11:05,089 INFO 7015 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 40734913ms at 2020-04-10 04:30:00.002
+2020-04-09 17:11:05,090 INFO 7015 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 24534910ms at 2020-04-10 00:00:00.000
+2020-04-09 17:11:05,090 INFO 7015 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 24535910ms at 2020-04-10 00:00:01.000
+2020-04-09 17:22:23,625 INFO 9223 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-09 17:22:23,625 INFO 9223 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-09 17:22:23,625 INFO 9223 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-09 17:22:26,299 INFO 9196 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 40053704ms at 2020-04-10 04:30:00.003
+2020-04-09 17:22:26,299 INFO 9196 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 23853701ms at 2020-04-10 00:00:00.000
+2020-04-09 17:22:26,300 INFO 9196 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23854701ms at 2020-04-10 00:00:01.001
+2020-04-10 17:27:23,961 INFO 21544 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-10 17:27:23,961 INFO 21544 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-10 17:27:23,962 INFO 21544 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-10 17:27:27,020 INFO 21494 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 39752983ms at 2020-04-11 04:30:00.003
+2020-04-10 17:27:27,020 INFO 21494 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 23552980ms at 2020-04-11 00:00:00.000
+2020-04-10 17:27:27,020 INFO 21494 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23553980ms at 2020-04-11 00:00:01.000
+2020-04-10 17:41:32,720 INFO 26197 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38907282ms at 2020-04-11 04:30:00.002
+2020-04-10 17:41:32,721 INFO 26197 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22707279ms at 2020-04-11 00:00:00.000
+2020-04-10 17:41:32,721 INFO 26197 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22708279ms at 2020-04-11 00:00:01.000
+2020-04-10 17:41:32,285 INFO 26212 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-10 17:41:32,285 INFO 26212 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-10 17:41:32,285 INFO 26212 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-10 17:43:20,967 INFO 26669 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-10 17:43:20,967 INFO 26669 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-10 17:43:20,967 INFO 26669 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-10 17:44:25,970 INFO 26883 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-10 17:44:25,970 INFO 26883 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-10 17:44:25,970 INFO 26883 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-10 17:47:36,613 INFO 27583 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-10 17:47:36,613 INFO 27583 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-10 17:47:36,613 INFO 27583 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-10 17:47:45,899 INFO 27632 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-10 17:47:45,899 INFO 27632 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-10 17:47:45,899 INFO 27632 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-12 15:33:04,637 INFO 23371 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 46615366ms at 2020-04-13 04:30:00.003
+2020-04-12 15:33:04,637 INFO 23371 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30415363ms at 2020-04-13 00:00:00.000
+2020-04-12 15:33:04,637 INFO 23371 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30416363ms at 2020-04-13 00:00:01.000
+2020-04-12 15:33:04,197 INFO 23418 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-12 15:33:04,197 INFO 23418 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-12 15:33:04,197 INFO 23418 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-12 15:53:52,043 INFO 26426 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45367960ms at 2020-04-13 04:30:00.003
+2020-04-12 15:53:52,043 INFO 26426 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 29167957ms at 2020-04-13 00:00:00.000
+2020-04-12 15:53:52,044 INFO 26426 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29168957ms at 2020-04-13 00:00:01.001
+2020-04-12 15:53:51,647 INFO 26470 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-12 15:53:51,647 INFO 26470 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-12 15:53:51,647 INFO 26470 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 11:15:48,452 INFO 24420 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 11:15:48,452 INFO 24420 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 11:15:48,452 INFO 24420 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 11:15:52,180 INFO 24369 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 62047822ms at 2020-04-15 04:30:00.002
+2020-04-14 11:15:52,181 INFO 24369 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 45847819ms at 2020-04-15 00:00:00.000
+2020-04-14 11:15:52,181 INFO 24369 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 45848819ms at 2020-04-15 00:00:01.000
+2020-04-14 11:17:44,534 INFO 24913 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 11:17:44,534 INFO 24913 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 11:17:44,534 INFO 24913 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 11:35:27,705 INFO 27095 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 11:35:27,705 INFO 27095 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 11:35:27,705 INFO 27095 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 11:36:30,311 INFO 27227 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 11:36:30,311 INFO 27227 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 11:36:30,311 INFO 27227 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 11:36:50,766 INFO 27312 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 11:36:50,766 INFO 27312 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 11:36:50,766 INFO 27312 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 11:41:04,348 INFO 27929 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 11:41:04,348 INFO 27929 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 11:41:04,348 INFO 27929 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 11:49:27,190 INFO 28795 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 11:49:27,190 INFO 28795 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 11:49:27,190 INFO 28795 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 15:38:00,110 INFO 30169 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-14 15:38:00,110 INFO 30169 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-14 15:38:00,110 INFO 30169 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-14 15:38:03,962 INFO 30142 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 46316040ms at 2020-04-15 04:30:00.002
+2020-04-14 15:38:03,962 INFO 30142 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30116038ms at 2020-04-15 00:00:00.000
+2020-04-14 15:38:03,963 INFO 30142 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30117038ms at 2020-04-15 00:00:01.001
+2020-04-20 15:02:07,562 INFO 32057 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48472441ms at 2020-04-21 04:30:00.003
+2020-04-20 15:02:07,563 INFO 32057 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 32272437ms at 2020-04-21 00:00:00.000
+2020-04-20 15:02:07,563 INFO 32057 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32273437ms at 2020-04-21 00:00:01.000
+2020-04-20 15:02:07,078 INFO 32136 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-20 15:02:07,078 INFO 32136 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-20 15:02:07,078 INFO 32136 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-21 18:52:18,201 INFO 24893 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 34661802ms at 2020-04-22 04:30:00.003
+2020-04-21 18:52:18,201 INFO 24893 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 18461799ms at 2020-04-22 00:00:00.000
+2020-04-21 18:52:18,201 INFO 24893 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 18462799ms at 2020-04-22 00:00:01.000
+2020-04-21 18:52:17,733 INFO 25056 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-21 18:52:17,733 INFO 25056 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-21 18:52:17,733 INFO 25056 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-21 19:40:46,959 INFO 31235 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-21 19:40:46,959 INFO 31235 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-21 19:40:46,959 INFO 31235 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-21 19:45:23,829 INFO 31807 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-21 19:45:23,829 INFO 31807 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-21 19:45:23,829 INFO 31807 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-21 19:45:34,122 INFO 31882 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-21 19:45:34,122 INFO 31882 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-21 19:45:34,122 INFO 31882 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-22 14:45:29,045 INFO 17725 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49470957ms at 2020-04-23 04:30:00.002
+2020-04-22 14:45:29,046 INFO 17725 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 33270954ms at 2020-04-23 00:00:00.000
+2020-04-22 14:45:29,046 INFO 17725 [Timer] /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 33271954ms at 2020-04-23 00:00:01.000
+2020-04-22 14:45:28,584 INFO 17738 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-22 14:45:28,584 INFO 17738 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-22 14:45:28,584 INFO 17738 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-13 10:43:55,366 INFO 20785 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-13 10:43:55,366 INFO 20785 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-05-13 10:43:55,366 INFO 20785 [egg-schedule]: register schedule /home/asd/asd/sugo-portal-app/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-18 13:56:50,199 INFO 22912 [egg-schedule]: register schedule /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-18 13:56:50,199 INFO 22912 [egg-schedule]: register schedule /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-18 13:56:50,199 INFO 22912 [egg-schedule]: register schedule /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-18 13:56:50,919 INFO 22859 [Timer] /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 52389084ms at 2020-06-19 04:30:00.003
+2020-06-18 13:56:50,920 INFO 22859 [Timer] /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 36189080ms at 2020-06-19 00:00:00.000
+2020-06-18 13:56:50,920 INFO 22859 [Timer] /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 36190080ms at 2020-06-19 00:00:01.000

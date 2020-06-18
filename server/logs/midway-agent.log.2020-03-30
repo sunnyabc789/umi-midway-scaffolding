@@ -1,0 +1,175 @@
+2020-03-27 16:53:41,500 INFO 10128 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-27 16:53:41,510 INFO 10128 [egg:core] dump config after load, 5ms
+2020-03-27 16:53:41,550 INFO 10128 [egg-watcher:agent] watcher start success
+2020-03-27 16:53:41,568 WARN 10128 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-27 16:53:41,575 INFO 10128 [egg:core] dump config after ready, 4ms
+2020-03-27 16:54:17,298 INFO 10229 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-27 16:54:17,308 INFO 10229 [egg:core] dump config after load, 5ms
+2020-03-27 16:54:17,333 INFO 10229 [egg-watcher:agent] watcher start success
+2020-03-27 16:54:17,339 WARN 10229 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-27 16:54:17,347 INFO 10229 [egg:core] dump config after ready, 5ms
+2020-03-27 17:15:46,684 INFO 12861 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-27 17:15:46,693 INFO 12861 [egg:core] dump config after load, 5ms
+2020-03-27 17:15:46,717 INFO 12861 [egg-watcher:agent] watcher start success
+2020-03-27 17:15:46,726 WARN 12861 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-27 17:15:46,733 INFO 12861 [egg:core] dump config after ready, 4ms
+2020-03-27 17:16:16,257 INFO 12993 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-27 17:16:16,267 INFO 12993 [egg:core] dump config after load, 5ms
+2020-03-27 17:16:16,294 INFO 12993 [egg-watcher:agent] watcher start success
+2020-03-27 17:16:16,297 WARN 12993 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-27 17:16:16,304 INFO 12993 [egg:core] dump config after ready, 4ms
+2020-03-27 17:25:45,287 INFO 14881 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-27 17:25:45,297 INFO 14881 [egg:core] dump config after load, 5ms
+2020-03-27 17:25:45,321 INFO 14881 [egg-watcher:agent] watcher start success
+2020-03-27 17:25:45,328 WARN 14881 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-27 17:25:45,351 INFO 14881 [egg:core] dump config after ready, 17ms
+2020-03-27 17:26:25,075 INFO 15021 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-27 17:26:25,085 INFO 15021 [egg:core] dump config after load, 5ms
+2020-03-27 17:26:25,109 INFO 15021 [egg-watcher:agent] watcher start success
+2020-03-27 17:26:25,112 WARN 15021 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-27 17:26:25,118 INFO 15021 [egg:core] dump config after ready, 4ms
+2020-03-27 17:39:00,274 INFO 16963 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-27 17:39:00,284 INFO 16963 [egg:core] dump config after load, 5ms
+2020-03-27 17:39:00,309 INFO 16963 [egg-watcher:agent] watcher start success
+2020-03-27 17:39:00,317 WARN 16963 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-27 17:39:00,324 INFO 16963 [egg:core] dump config after ready, 4ms
+2020-03-27 18:02:49,647 INFO 20460 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-27 18:02:49,671 INFO 20460 [egg:core] dump config after load, 20ms
+2020-03-27 18:02:49,763 INFO 20460 [egg-watcher:agent] watcher start success
+2020-03-27 18:02:49,766 WARN 20460 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-27 18:02:49,773 INFO 20460 [egg:core] dump config after ready, 4ms
+2020-03-27 18:03:32,448 INFO 20594 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-27 18:03:32,459 INFO 20594 [egg:core] dump config after load, 5ms
+2020-03-27 18:03:32,483 INFO 20594 [egg-watcher:agent] watcher start success
+2020-03-27 18:03:32,491 WARN 20594 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-27 18:03:32,501 INFO 20594 [egg:core] dump config after ready, 5ms
+2020-03-27 18:47:44,015 INFO 26941 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-27 18:47:44,043 INFO 26941 [egg:core] dump config after load, 23ms
+2020-03-27 18:47:44,657 INFO 26941 [egg-watcher:agent] watcher start success
+2020-03-27 18:47:44,659 WARN 26941 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-27 18:47:44,670 INFO 26941 [egg:core] dump config after ready, 5ms
+2020-03-27 18:54:03,731 INFO 28101 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-27 18:54:03,742 INFO 28101 [egg:core] dump config after load, 5ms
+2020-03-27 18:54:03,766 INFO 28101 [egg-watcher:agent] watcher start success
+2020-03-27 18:54:03,768 WARN 28101 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-27 18:54:03,778 INFO 28101 [egg:core] dump config after ready, 4ms
+2020-03-27 18:54:28,402 INFO 28200 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-27 18:54:28,412 INFO 28200 [egg:core] dump config after load, 5ms
+2020-03-27 18:54:28,435 INFO 28200 [egg-watcher:agent] watcher start success
+2020-03-27 18:54:28,437 WARN 28200 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-27 18:54:28,451 INFO 28200 [egg:core] dump config after ready, 3ms
+2020-03-27 19:21:17,988 INFO 30812 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-27 19:21:17,998 INFO 30812 [egg:core] dump config after load, 6ms
+2020-03-27 19:21:18,023 INFO 30812 [egg-watcher:agent] watcher start success
+2020-03-27 19:21:18,031 WARN 30812 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-27 19:21:18,038 INFO 30812 [egg:core] dump config after ready, 4ms
+2020-03-27 19:25:12,499 INFO 31786 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-27 19:25:12,509 INFO 31786 [egg:core] dump config after load, 5ms
+2020-03-27 19:25:12,533 INFO 31786 [egg-watcher:agent] watcher start success
+2020-03-27 19:25:12,536 WARN 31786 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-27 19:25:12,542 INFO 31786 [egg:core] dump config after ready, 3ms
+2020-03-27 19:31:27,852 INFO 32504 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-27 19:31:27,862 INFO 32504 [egg:core] dump config after load, 5ms
+2020-03-27 19:31:27,885 INFO 32504 [egg-watcher:agent] watcher start success
+2020-03-27 19:31:27,896 WARN 32504 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-27 19:31:27,903 INFO 32504 [egg:core] dump config after ready, 3ms
+2020-03-27 19:35:22,611 INFO 761 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-27 19:35:22,621 INFO 761 [egg:core] dump config after load, 5ms
+2020-03-27 19:35:22,645 INFO 761 [egg-watcher:agent] watcher start success
+2020-03-27 19:35:22,647 WARN 761 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-27 19:35:22,653 INFO 761 [egg:core] dump config after ready, 4ms
+2020-03-27 19:35:52,679 INFO 857 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-27 19:35:52,689 INFO 857 [egg:core] dump config after load, 5ms
+2020-03-27 19:35:52,713 INFO 857 [egg-watcher:agent] watcher start success
+2020-03-27 19:35:52,721 WARN 857 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-27 19:35:52,727 INFO 857 [egg:core] dump config after ready, 4ms
+2020-03-27 20:01:37,216 INFO 4336 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-27 20:01:37,226 INFO 4336 [egg:core] dump config after load, 5ms
+2020-03-27 20:01:37,254 INFO 4336 [egg-watcher:agent] watcher start success
+2020-03-27 20:01:37,257 WARN 4336 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-27 20:01:37,267 INFO 4336 [egg:core] dump config after ready, 3ms
+2020-03-27 20:07:14,151 INFO 5153 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-27 20:07:14,163 INFO 5153 [egg:core] dump config after load, 6ms
+2020-03-27 20:07:14,187 INFO 5153 [egg-watcher:agent] watcher start success
+2020-03-27 20:07:14,189 WARN 5153 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-27 20:07:14,223 INFO 5153 [egg:core] dump config after ready, 28ms
+2020-03-30 11:59:22,136 INFO 7561 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-30 11:59:22,148 INFO 7561 [egg:core] dump config after load, 7ms
+2020-03-30 11:59:22,229 INFO 7561 [egg-watcher:agent] watcher start success
+2020-03-30 11:59:22,231 WARN 7561 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-30 11:59:22,256 INFO 7561 [egg:core] dump config after ready, 19ms
+2020-03-30 13:49:52,951 INFO 17907 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-30 13:49:52,961 INFO 17907 [egg:core] dump config after load, 5ms
+2020-03-30 13:49:52,985 INFO 17907 [egg-watcher:agent] watcher start success
+2020-03-30 13:49:52,987 WARN 17907 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-30 13:49:52,997 INFO 17907 [egg:core] dump config after ready, 4ms
+2020-03-30 13:50:28,059 INFO 17994 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-30 13:50:28,069 INFO 17994 [egg:core] dump config after load, 6ms
+2020-03-30 13:50:28,093 INFO 17994 [egg-watcher:agent] watcher start success
+2020-03-30 13:50:28,101 WARN 17994 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-30 13:50:28,110 INFO 17994 [egg:core] dump config after ready, 6ms
+2020-03-30 14:44:56,543 INFO 25810 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-30 14:44:56,579 INFO 25810 [egg:core] dump config after load, 32ms
+2020-03-30 14:44:56,666 INFO 25810 [egg-watcher:agent] watcher start success
+2020-03-30 14:44:56,673 WARN 25810 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-30 14:44:56,679 INFO 25810 [egg:core] dump config after ready, 3ms
+2020-03-30 14:45:23,842 INFO 25893 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-30 14:45:23,852 INFO 25893 [egg:core] dump config after load, 5ms
+2020-03-30 14:45:23,876 INFO 25893 [egg-watcher:agent] watcher start success
+2020-03-30 14:45:23,885 WARN 25893 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-30 14:45:23,894 INFO 25893 [egg:core] dump config after ready, 4ms
+2020-03-30 15:03:13,518 INFO 28347 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-30 15:03:13,545 INFO 28347 [egg:core] dump config after load, 22ms
+2020-03-30 15:03:13,633 INFO 28347 [egg-watcher:agent] watcher start success
+2020-03-30 15:03:13,635 WARN 28347 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-30 15:03:13,645 INFO 28347 [egg:core] dump config after ready, 3ms
+2020-03-30 16:03:12,434 INFO 6312 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-30 16:03:12,480 INFO 6312 [egg:core] dump config after load, 41ms
+2020-03-30 16:03:12,690 INFO 6312 [egg-watcher:agent] watcher start success
+2020-03-30 16:03:12,699 WARN 6312 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-30 16:03:12,710 INFO 6312 [egg:core] dump config after ready, 4ms
+2020-03-30 16:03:40,373 INFO 6406 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-30 16:03:40,384 INFO 6406 [egg:core] dump config after load, 6ms
+2020-03-30 16:03:40,409 INFO 6406 [egg-watcher:agent] watcher start success
+2020-03-30 16:03:40,416 WARN 6406 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-30 16:03:40,429 INFO 6406 [egg:core] dump config after ready, 4ms
+2020-03-30 16:06:59,918 INFO 7034 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-30 16:06:59,929 INFO 7034 [egg:core] dump config after load, 5ms
+2020-03-30 16:06:59,957 INFO 7034 [egg-watcher:agent] watcher start success
+2020-03-30 16:06:59,959 WARN 7034 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-30 16:06:59,964 INFO 7034 [egg:core] dump config after ready, 3ms
+2020-03-30 16:10:55,119 INFO 7673 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-30 16:10:55,151 INFO 7673 [egg:core] dump config after load, 25ms
+2020-03-30 16:10:55,314 INFO 7673 [egg-watcher:agent] watcher start success
+2020-03-30 16:10:55,316 WARN 7673 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-30 16:10:55,326 INFO 7673 [egg:core] dump config after ready, 4ms
+2020-03-30 16:20:22,018 INFO 8783 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-30 16:20:22,029 INFO 8783 [egg:core] dump config after load, 6ms
+2020-03-30 16:20:22,054 INFO 8783 [egg-watcher:agent] watcher start success
+2020-03-30 16:20:22,056 WARN 8783 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-30 16:20:22,067 INFO 8783 [egg:core] dump config after ready, 5ms
+2020-03-30 16:21:37,297 INFO 9117 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-30 16:21:37,307 INFO 9117 [egg:core] dump config after load, 6ms
+2020-03-30 16:21:37,332 INFO 9117 [egg-watcher:agent] watcher start success
+2020-03-30 16:21:37,345 WARN 9117 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-30 16:21:37,357 INFO 9117 [egg:core] dump config after ready, 4ms
+2020-03-30 16:37:22,156 INFO 11895 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-30 16:37:22,191 INFO 11895 [egg:core] dump config after load, 29ms
+2020-03-30 16:37:22,279 INFO 11895 [egg-watcher:agent] watcher start success
+2020-03-30 16:37:22,291 WARN 11895 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-30 16:37:22,305 INFO 11895 [egg:core] dump config after ready, 5ms
+2020-03-30 17:10:28,160 INFO 17306 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-30 17:10:28,218 INFO 17306 [egg:core] dump config after load, 52ms
+2020-03-30 17:10:28,306 INFO 17306 [egg-watcher:agent] watcher start success
+2020-03-30 17:10:28,308 WARN 17306 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-30 17:10:28,323 INFO 17306 [egg:core] dump config after ready, 3ms
+2020-03-30 20:13:19,678 INFO 15985 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-30 20:13:19,743 INFO 15985 [egg:core] dump config after load, 49ms
+2020-03-30 20:13:19,876 INFO 15985 [egg-watcher:agent] watcher start success
+2020-03-30 20:13:19,877 WARN 15985 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-30 20:13:19,883 INFO 15985 [egg:core] dump config after ready, 3ms
+2020-03-30 20:54:09,544 INFO 25317 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/sugo-portal-app/server/logs","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"agent"}
+2020-03-30 20:54:09,854 INFO 25317 [egg:core] dump config after load, 305ms
+2020-03-30 20:54:10,267 INFO 25317 [egg-watcher:agent] watcher start success
+2020-03-30 20:54:10,299 WARN 25317 [egg-watcher] defaultEventSource watcher will NOT take effect
+2020-03-30 20:54:10,314 INFO 25317 [egg:core] dump config after ready, 5ms

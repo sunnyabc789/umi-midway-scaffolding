@@ -1,0 +1,1604 @@
+2020-03-18 09:23:40,584 ERROR 15367 [-/::1/-/5ms GET /console/portal/application-management] nodejs.Error: Please set config.keys first
+    at MidwayApplication.get keys [as keys] (/home/asd/asd/sugo-portal-app/server/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/home/asd/asd/sugo-portal-app/server/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/home/asd/asd/sugo-portal-app/server/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/home/asd/asd/sugo-portal-app/server/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/home/asd/asd/sugo-portal-app/server/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/home/asd/asd/sugo-portal-app/server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /home/asd/asd/sugo-portal-app/server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/asd/asd/sugo-portal-app/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/home/asd/asd/sugo-portal-app/server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/home/asd/asd/sugo-portal-app/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 15367
+hostname: asd06
+
+2020-03-18 09:23:47,119 ERROR 15458 [-/::1/-/3ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 15458
+hostname: asd06
+
+2020-03-18 09:23:47,125 ERROR 15458 [-/::1/-/1ms GET /app/sugo-app-tag-relation?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalAppTagRelation" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalAppTagRelationService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalExtAppTagRelationController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/app-tag-relation.js:20:64)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalAppTagRelation\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 15458
+hostname: asd06
+
+2020-03-18 09:23:47,128 ERROR 15458 [-/::1/-/1ms GET /app/sugo-app?q=N4XyA] nodejs.Error: Model not initialized: "SugoPortalExtApp" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoPortalExtAppService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/application.js:58:50)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoPortalExtApp\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 15458
+hostname: asd06
+
+2020-03-18 09:23:47,129 ERROR 15458 [-/::1/-/1ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 15458
+hostname: asd06
+
+2020-03-18 09:23:47,132 ERROR 15458 [-/::1/-/1ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 15458
+hostname: asd06
+
+2020-03-18 09:23:47,140 ERROR 15458 [-/::1/-/1ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 15458
+hostname: asd06
+
+2020-03-18 09:25:47,949 ERROR 15445 nodejs.unhandledExceptionError: ENOENT: no such file or directory, stat '/home/asd/asd/sugo-portal-app/server/dist/app.js'
+    at Object.statSync (fs.js:850:3)
+    at DevelopmentEventSource._onFsWatchChange (/home/asd/asd/sugo-portal-app/server/node_modules/egg-watcher/lib/event-sources/development.js:82:16)
+    at FSWatcher.emit (events.js:189:13)
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:131:12)
+errno: -2
+syscall: "stat"
+code: "ENOENT"
+path: "/home/asd/asd/sugo-portal-app/server/dist/app.js"
+name: "unhandledExceptionError"
+pid: 15445
+hostname: asd06
+
+2020-03-18 09:25:47,950 ERROR 15445 nodejs.unhandledExceptionError: ENOENT: no such file or directory, stat '/home/asd/asd/sugo-portal-app/server/dist/app.js'
+    at Object.statSync (fs.js:850:3)
+    at DevelopmentEventSource._onFsWatchChange (/home/asd/asd/sugo-portal-app/server/node_modules/egg-watcher/lib/event-sources/development.js:82:16)
+    at FSWatcher.emit (events.js:189:13)
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:131:12)
+errno: -2
+syscall: "stat"
+code: "ENOENT"
+path: "/home/asd/asd/sugo-portal-app/server/dist/app.js"
+name: "unhandledExceptionError"
+pid: 15445
+hostname: asd06
+
+2020-03-18 09:25:47,950 ERROR 15445 nodejs.unhandledExceptionError: ENOENT: no such file or directory, stat '/home/asd/asd/sugo-portal-app/server/dist/app.js'
+    at Object.statSync (fs.js:850:3)
+    at DevelopmentEventSource._onFsWatchChange (/home/asd/asd/sugo-portal-app/server/node_modules/egg-watcher/lib/event-sources/development.js:82:16)
+    at FSWatcher.emit (events.js:189:13)
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:131:12)
+errno: -2
+syscall: "stat"
+code: "ENOENT"
+path: "/home/asd/asd/sugo-portal-app/server/dist/app.js"
+name: "unhandledExceptionError"
+pid: 15445
+hostname: asd06
+
+2020-03-18 09:26:01,981 ERROR 16193 [-/::1/-/4ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 16193
+hostname: asd06
+
+2020-03-18 09:26:01,996 ERROR 16193 [-/::1/-/2ms GET /app/sugo-app-tag-relation?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalAppTagRelation" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalAppTagRelationService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalExtAppTagRelationController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/app-tag-relation.js:20:64)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalAppTagRelation\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 16193
+hostname: asd06
+
+2020-03-18 09:26:01,998 ERROR 16193 [-/::1/-/3ms GET /app/sugo-app?q=N4XyA] nodejs.Error: Model not initialized: "SugoPortalExtApp" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoPortalExtAppService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/application.js:58:50)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoPortalExtApp\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 16193
+hostname: asd06
+
+2020-03-18 09:26:02,000 ERROR 16193 [-/::1/-/1ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 16193
+hostname: asd06
+
+2020-03-18 09:26:02,003 ERROR 16193 [-/::1/-/1ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 16193
+hostname: asd06
+
+2020-03-18 09:26:02,005 ERROR 16193 [-/::1/-/1ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 16193
+hostname: asd06
+
+2020-03-18 09:26:13,675 ERROR 16193 [-/::1/-/1ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 16193
+hostname: asd06
+
+2020-03-18 09:26:13,682 ERROR 16193 [-/::1/-/1ms GET /app/sugo-app-tag-relation?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalAppTagRelation" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalAppTagRelationService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalExtAppTagRelationController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/app-tag-relation.js:20:64)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalAppTagRelation\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 16193
+hostname: asd06
+
+2020-03-18 09:26:13,686 ERROR 16193 [-/::1/-/1ms GET /app/sugo-app?q=N4XyA] nodejs.Error: Model not initialized: "SugoPortalExtApp" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoPortalExtAppService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/application.js:58:50)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoPortalExtApp\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 16193
+hostname: asd06
+
+2020-03-18 09:26:13,689 ERROR 16193 [-/::1/-/1ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 16193
+hostname: asd06
+
+2020-03-18 09:26:13,693 ERROR 16193 [-/::1/-/2ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 16193
+hostname: asd06
+
+2020-03-18 09:26:13,697 ERROR 16193 [-/::1/-/1ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 16193
+hostname: asd06
+
+2020-03-18 09:43:19,484 ERROR 16193 [-/::1/-/1ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 16193
+hostname: asd06
+
+2020-03-18 09:43:19,571 ERROR 16193 [-/::1/-/1ms GET /app/sugo-app-tag-relation?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalAppTagRelation" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalAppTagRelationService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalExtAppTagRelationController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/app-tag-relation.js:20:64)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalAppTagRelation\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 16193
+hostname: asd06
+
+2020-03-18 09:43:19,581 ERROR 16193 [-/::1/-/1ms GET /app/sugo-app?q=N4XyA] nodejs.Error: Model not initialized: "SugoPortalExtApp" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoPortalExtAppService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/application.js:58:50)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoPortalExtApp\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 16193
+hostname: asd06
+
+2020-03-18 09:43:19,582 ERROR 16193 [-/::1/-/2ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 16193
+hostname: asd06
+
+2020-03-18 09:43:19,585 ERROR 16193 [-/::1/-/1ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 16193
+hostname: asd06
+
+2020-03-18 09:43:19,588 ERROR 16193 [-/::1/-/1ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 16193
+hostname: asd06
+
+2020-03-18 16:01:01,021 ERROR 13986 [-/::1/-/3ms GET /app/sugo-app?q=N4XyA] nodejs.Error: Model not initialized: "SugoPortalExtApp" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoPortalExtAppService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/application.js:58:50)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoPortalExtApp\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 13986
+hostname: asd06
+
+2020-03-18 16:01:01,036 ERROR 13986 [-/::1/-/2ms GET /app/sugo-workbench?q=N4XyA] nodejs.Error: Model not initialized: "SugoUserExtappRelation" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoExtappUserRelationService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalExtappUserRelationsController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/workbench.js:17:62)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoUserExtappRelation\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 13986
+hostname: asd06
+
+2020-03-18 16:01:01,038 ERROR 13986 [-/::1/-/3ms GET /app/sugo-smart-recommend?q=N4XyA] nodejs.Error: Model not initialized: "SugoExtappClickcount" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoExtappClickcountService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoExtappClickcountController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/click-count.js:27:60)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoExtappClickcount\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 13986
+hostname: asd06
+
+2020-03-18 16:01:02,605 ERROR 13986 [-/::1/-/2ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 13986
+hostname: asd06
+
+2020-03-18 16:01:02,607 ERROR 13986 [-/::1/-/1ms GET /app/sugo-app-tag-relation?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalAppTagRelation" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalAppTagRelationService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalExtAppTagRelationController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/app-tag-relation.js:20:64)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalAppTagRelation\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 13986
+hostname: asd06
+
+2020-03-18 16:01:02,612 ERROR 13986 [-/::1/-/2ms GET /app/sugo-app?q=N4XyA] nodejs.Error: Model not initialized: "SugoPortalExtApp" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoPortalExtAppService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/application.js:58:50)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoPortalExtApp\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 13986
+hostname: asd06
+
+2020-03-18 16:01:02,613 ERROR 13986 [-/::1/-/2ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 13986
+hostname: asd06
+
+2020-03-18 16:01:02,616 ERROR 13986 [-/::1/-/1ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 13986
+hostname: asd06
+
+2020-03-18 16:01:02,695 ERROR 13986 [-/::1/-/1ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 13986
+hostname: asd06
+
+2020-03-18 18:40:40,159 ERROR 5231 [-/::1/-/3ms GET /app/sugo-app?q=N4XyA] nodejs.Error: Model not initialized: "SugoPortalExtApp" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoPortalExtAppService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/application.js:58:50)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoPortalExtApp\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 5231
+hostname: asd06
+
+2020-03-18 18:40:40,163 ERROR 5231 [-/::1/-/1ms GET /app/sugo-workbench?q=N4XyA] nodejs.Error: Model not initialized: "SugoUserExtappRelation" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoExtappUserRelationService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalExtappUserRelationsController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/workbench.js:17:62)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoUserExtappRelation\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 5231
+hostname: asd06
+
+2020-03-18 18:40:40,165 ERROR 5231 [-/::1/-/3ms GET /app/sugo-smart-recommend?q=N4XyA] nodejs.Error: Model not initialized: "SugoExtappClickcount" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoExtappClickcountService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoExtappClickcountController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/click-count.js:27:60)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoExtappClickcount\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 5231
+hostname: asd06
+
+2020-03-18 18:40:41,575 ERROR 5231 [-/::1/-/1ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 5231
+hostname: asd06
+
+2020-03-18 18:40:41,578 ERROR 5231 [-/::1/-/0ms GET /app/sugo-app-tag-relation?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalAppTagRelation" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalAppTagRelationService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalExtAppTagRelationController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/app-tag-relation.js:20:64)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalAppTagRelation\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 5231
+hostname: asd06
+
+2020-03-18 18:40:41,586 ERROR 5231 [-/::1/-/1ms GET /app/sugo-app?q=N4XyA] nodejs.Error: Model not initialized: "SugoPortalExtApp" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoPortalExtAppService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/application.js:58:50)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoPortalExtApp\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 5231
+hostname: asd06
+
+2020-03-18 18:40:41,588 ERROR 5231 [-/::1/-/3ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 5231
+hostname: asd06
+
+2020-03-18 18:40:41,590 ERROR 5231 [-/::1/-/1ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 5231
+hostname: asd06
+
+2020-03-18 18:40:41,645 ERROR 5231 [-/::1/-/1ms GET /app/sugo-app-tag?q=N4XyA] nodejs.Error: Model not initialized: "SugoProtalTag" needs to be added to a Sequelize instance before "findAll" can be called.
+    at new ModelNotInitializedError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/errors/ModelNotInitializedError.js:18:16)
+    at checkInitialization (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:64:23)
+    at Function._target.(anonymous function) [as findAll] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize-typescript/lib/models/BaseModel.js:34:21)
+    at SugoProtalTagService.findAll (/home/asd/asd/sugo-portal-app/server/dist/lib/service/base.service.js:89:27)
+    at SugoProtalTagController.query (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:21:57)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+message: "Model not initialized: \"SugoProtalTag\" needs to be added to a Sequelize instance before \"findAll\" can be called."
+pid: 5231
+hostname: asd06
+
+2020-03-27 15:00:27,752 ERROR 23163 [-/127.0.0.1/-/2ms GET /app/sugo-app] nodejs.TypeError: Cannot destructure property `name` of 'undefined' or 'null'.
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/application.ts:34:26)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+
+pid: 23163
+hostname: asd06
+
+2020-03-27 15:00:27,777 ERROR 23163 [-/127.0.0.1/-/2ms GET /app/sugo-smart-recommend] nodejs.TypeError: Cannot destructure property `user` of 'undefined' or 'null'.
+    at SugoExtappClickcountController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/click-count.ts:15:31)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+
+pid: 23163
+hostname: asd06
+
+2020-03-27 15:00:35,913 ERROR 23163 [-/127.0.0.1/-/0ms GET /app/sugo-app] nodejs.TypeError: Cannot destructure property `name` of 'undefined' or 'null'.
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/application.ts:34:26)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+
+pid: 23163
+hostname: asd06
+
+2020-03-27 15:00:38,224 ERROR 23163 [-/127.0.0.1/-/2ms GET /app/sugo-app] nodejs.TypeError: Cannot destructure property `name` of 'undefined' or 'null'.
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/application.ts:34:26)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+
+pid: 23163
+hostname: asd06
+
+2020-03-27 15:00:38,234 ERROR 23163 [-/127.0.0.1/-/3ms GET /app/sugo-smart-recommend] nodejs.TypeError: Cannot destructure property `user` of 'undefined' or 'null'.
+    at SugoExtappClickcountController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/click-count.ts:15:31)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+
+pid: 23163
+hostname: asd06
+
+2020-03-27 15:01:13,483 ERROR 23163 [-/127.0.0.1/-/1ms GET /app/sugo-app] nodejs.TypeError: Cannot destructure property `name` of 'undefined' or 'null'.
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/application.ts:34:26)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+
+pid: 23163
+hostname: asd06
+
+2020-03-27 15:01:13,494 ERROR 23163 [-/127.0.0.1/-/1ms GET /app/sugo-smart-recommend] nodejs.TypeError: Cannot destructure property `user` of 'undefined' or 'null'.
+    at SugoExtappClickcountController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/click-count.ts:15:31)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+
+pid: 23163
+hostname: asd06
+
+2020-03-27 15:25:32,621 ERROR 27461 [-/127.0.0.1/-/10ms GET /app/sugo-app] nodejs.TypeError: Cannot destructure property `name` of 'undefined' or 'null'.
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/application.ts:34:26)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+
+pid: 27461
+hostname: asd06
+
+2020-03-27 15:25:32,640 ERROR 27461 [-/127.0.0.1/-/7ms GET /app/sugo-smart-recommend] nodejs.TypeError: Cannot destructure property `user` of 'undefined' or 'null'.
+    at SugoExtappClickcountController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/click-count.ts:15:31)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+
+pid: 27461
+hostname: asd06
+
+2020-03-27 16:12:49,414 ERROR 2154 [-/::1/-/2ms GET /app/sugo-app] nodejs.TypeError: Cannot destructure property `name` of 'undefined' or 'null'.
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/application.ts:34:26)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2154
+hostname: asd06
+
+2020-03-27 16:12:49,434 ERROR 2154 [-/::1/-/1ms GET /app/sugo-smart-recommend] nodejs.TypeError: Cannot destructure property `user` of 'undefined' or 'null'.
+    at SugoExtappClickcountController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/click-count.ts:15:31)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2154
+hostname: asd06
+
+2020-03-27 16:27:49,337 ERROR 4901 [-/::1/-/3ms GET /app/sugo-app] nodejs.TypeError: Cannot destructure property `name` of 'undefined' or 'null'.
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/application.ts:34:26)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 4901
+hostname: asd06
+
+2020-03-27 16:27:49,348 ERROR 4901 [-/::1/-/1ms GET /app/sugo-smart-recommend] nodejs.TypeError: Cannot destructure property `user` of 'undefined' or 'null'.
+    at SugoExtappClickcountController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/click-count.ts:15:31)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 4901
+hostname: asd06
+
+2020-03-27 16:30:28,854 ERROR 4901 [-/::1/-/2ms GET /app/sugo-app] nodejs.TypeError: Cannot destructure property `name` of 'undefined' or 'null'.
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/application.ts:34:26)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 4901
+hostname: asd06
+
+2020-03-27 16:30:28,861 ERROR 4901 [-/::1/-/1ms GET /app/sugo-smart-recommend] nodejs.TypeError: Cannot destructure property `user` of 'undefined' or 'null'.
+    at SugoExtappClickcountController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/click-count.ts:15:31)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 4901
+hostname: asd06
+
+2020-03-27 16:33:35,233 ERROR 6328 [-/::1/-/4ms GET /app/sugo-app] nodejs.TypeError: Cannot destructure property `name` of 'undefined' or 'null'.
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/application.ts:34:26)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 6328
+hostname: asd06
+
+2020-03-27 16:33:35,242 ERROR 6328 [-/::1/-/2ms GET /app/sugo-smart-recommend] nodejs.TypeError: Cannot destructure property `user` of 'undefined' or 'null'.
+    at SugoExtappClickcountController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/click-count.ts:15:31)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 6328
+hostname: asd06
+
+2020-03-27 16:38:23,650 ERROR 7259 [-/::1/-/3ms GET /app/sugo-app] nodejs.TypeError: Cannot destructure property `name` of 'undefined' or 'null'.
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/application.ts:34:26)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 7259
+hostname: asd06
+
+2020-03-27 16:38:23,661 ERROR 7259 [-/::1/-/6ms GET /app/sugo-smart-recommend] nodejs.TypeError: Cannot destructure property `user` of 'undefined' or 'null'.
+    at SugoExtappClickcountController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/click-count.ts:15:31)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 7259
+hostname: asd06
+
+2020-03-27 16:39:02,718 ERROR 7259 [-/127.0.0.1/-/0ms GET /app/sugo-app] nodejs.TypeError: Cannot destructure property `name` of 'undefined' or 'null'.
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/application.ts:34:26)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 7259
+hostname: asd06
+
+2020-03-27 16:39:02,732 ERROR 7259 [-/127.0.0.1/-/1ms GET /app/sugo-smart-recommend] nodejs.TypeError: Cannot destructure property `user` of 'undefined' or 'null'.
+    at SugoExtappClickcountController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/click-count.ts:15:31)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 7259
+hostname: asd06
+
+2020-03-27 16:42:55,298 ERROR 8371 [-/127.0.0.1/-/3ms GET /app/sugo-app] nodejs.TypeError: Cannot destructure property `name` of 'undefined' or 'null'.
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/application.ts:34:26)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 8371
+hostname: asd06
+
+2020-03-27 16:43:02,817 ERROR 8371 [-/127.0.0.1/-/0ms GET /app/sugo-app] nodejs.TypeError: Cannot destructure property `name` of 'undefined' or 'null'.
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/application.ts:34:26)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 8371
+hostname: asd06
+
+2020-03-27 16:43:02,831 ERROR 8371 [-/127.0.0.1/-/1ms GET /app/sugo-smart-recommend] nodejs.TypeError: Cannot destructure property `user` of 'undefined' or 'null'.
+    at SugoExtappClickcountController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/click-count.ts:15:31)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 8371
+hostname: asd06
+
+2020-03-27 16:43:48,859 ERROR 8371 [-/127.0.0.1/-/1ms GET /app/sugo-app] nodejs.TypeError: Cannot destructure property `name` of 'undefined' or 'null'.
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/application.ts:34:26)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 8371
+hostname: asd06
+
+2020-03-27 16:43:48,865 ERROR 8371 [-/127.0.0.1/-/0ms GET /app/sugo-smart-recommend] nodejs.TypeError: Cannot destructure property `user` of 'undefined' or 'null'.
+    at SugoExtappClickcountController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/click-count.ts:15:31)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 8371
+hostname: asd06
+
+2020-03-27 16:45:00,215 ERROR 8577 [-/127.0.0.1/-/3ms GET /app/sugo-app] nodejs.TypeError: Cannot destructure property `name` of 'undefined' or 'null'.
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/application.ts:35:26)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 8577
+hostname: asd06
+
+2020-03-27 16:45:00,284 ERROR 8577 [-/127.0.0.1/-/1ms GET /app/sugo-smart-recommend] nodejs.TypeError: Cannot destructure property `user` of 'undefined' or 'null'.
+    at SugoExtappClickcountController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/click-count.ts:15:31)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 8577
+hostname: asd06
+
+2020-03-27 16:47:29,346 ERROR 9150 [-/127.0.0.1/-/3ms GET /app/sugo-app] nodejs.TypeError: Cannot destructure property `name` of 'undefined' or 'null'.
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/application.ts:35:26)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 9150
+hostname: asd06
+
+2020-03-27 16:47:29,428 ERROR 9150 [-/127.0.0.1/-/4ms GET /app/sugo-smart-recommend] nodejs.TypeError: Cannot destructure property `user` of 'undefined' or 'null'.
+    at SugoExtappClickcountController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/click-count.ts:15:31)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 9150
+hostname: asd06
+
+2020-03-27 16:50:16,413 ERROR 9688 [-/127.0.0.1/-/3ms GET /app/sugo-app] nodejs.TypeError: Cannot destructure property `name` of 'undefined' or 'null'.
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/application.ts:35:26)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 9688
+hostname: asd06
+
+2020-03-27 16:50:16,457 ERROR 9688 [-/127.0.0.1/-/0ms GET /app/sugo-smart-recommend] nodejs.TypeError: Cannot destructure property `user` of 'undefined' or 'null'.
+    at SugoExtappClickcountController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/click-count.ts:15:31)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 9688
+hostname: asd06
+
+2020-03-27 16:51:09,591 ERROR 9688 [-/127.0.0.1/-/1ms GET /app/sugo-app] nodejs.TypeError: Cannot destructure property `name` of 'undefined' or 'null'.
+    at SugoProtalExtappController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/application.ts:35:26)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 9688
+hostname: asd06
+
+2020-03-27 16:51:09,596 ERROR 9688 [-/127.0.0.1/-/0ms GET /app/sugo-smart-recommend] nodejs.TypeError: Cannot destructure property `user` of 'undefined' or 'null'.
+    at SugoExtappClickcountController.query (/home/asd/asd/sugo-portal-app/server/src/app/controller/click-count.ts:15:31)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/src/loader/webLoader.ts:300:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 9688
+hostname: asd06
+
+2020-03-31 09:35:32,749 ERROR 23561 [-/127.0.0.1/-/14ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 09:35:54,005 ERROR 23561 [-/127.0.0.1/-/2ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 09:41:07,751 ERROR 23561 [-/127.0.0.1/-/3ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 09:42:04,527 ERROR 23561 [-/127.0.0.1/-/2ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 09:46:15,796 ERROR 23561 [-/127.0.0.1/-/2ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 09:47:50,173 ERROR 23561 [-/127.0.0.1/-/2ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 09:49:01,180 ERROR 23561 [-/127.0.0.1/-/1ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 09:51:16,081 ERROR 23561 [-/127.0.0.1/-/3ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 09:57:57,496 ERROR 23561 [-/127.0.0.1/-/2ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 09:59:00,777 ERROR 23561 [-/127.0.0.1/-/2ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 09:59:11,743 ERROR 23561 [-/127.0.0.1/-/2ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 10:00:49,323 ERROR 23561 [-/127.0.0.1/-/5ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 10:00:58,262 ERROR 23561 [-/127.0.0.1/-/1ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 10:01:25,662 ERROR 23561 [-/127.0.0.1/-/2ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 10:02:15,824 ERROR 23561 [-/127.0.0.1/-/2ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 10:03:02,775 ERROR 23561 [-/127.0.0.1/-/2ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 10:05:08,812 ERROR 23561 [-/127.0.0.1/-/1ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 10:26:52,414 ERROR 23561 [-/127.0.0.1/-/2ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 10:27:48,748 ERROR 23561 [-/127.0.0.1/-/2ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 10:28:10,884 ERROR 23561 [-/127.0.0.1/-/2ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 10:29:03,787 ERROR 23561 [-/127.0.0.1/-/1ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 10:29:32,876 ERROR 23561 [-/127.0.0.1/-/2ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 10:29:48,040 ERROR 23561 [-/127.0.0.1/-/2ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 10:32:03,096 ERROR 23561 [-/127.0.0.1/-/3ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 10:35:40,252 ERROR 23561 [-/127.0.0.1/-/2ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 10:36:34,861 ERROR 23561 [-/127.0.0.1/-/1ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 10:37:48,614 ERROR 23561 [-/127.0.0.1/-/3ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 10:38:11,462 ERROR 23561 [-/127.0.0.1/-/2ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 11:00:45,668 ERROR 23561 [-/127.0.0.1/-/3ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 11:00:56,824 ERROR 23561 [-/127.0.0.1/-/1ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 11:01:10,695 ERROR 23561 [-/127.0.0.1/-/2ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 11:02:08,496 ERROR 23561 [-/127.0.0.1/-/2ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+
+2020-03-31 11:02:38,235 ERROR 23561 [-/127.0.0.1/-/1ms POST /app/sugo-smart-recommend] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2184:13)
+    at Utils.getComplexKeys.forEach.prop (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2173:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2171:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:2583:19)
+    at MySQLQueryGenerator.selectQuery (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/abstract/query-generator.js:1315:28)
+    at QueryInterface.select (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/query-interface.js:1122:27)
+    at Promise.try.then.then.then (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/model.js:1757:34)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+headers: {"Access-Control-Allow-Origin":"http://localhost:8081","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 23561
+hostname: asd06
+

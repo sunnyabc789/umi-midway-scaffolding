@@ -1,0 +1,15 @@
+defaultSeverity: error
+extends:
+  - tslint-midway-contrib
+linterOptions:
+  exclude: [node_modules, '*.d.ts']
+rules:
+  semicolon:
+    - true
+    - never
+  eofline: true
+  no-console:
+    severity: warning
+  no-construct: true
+  no-debugger: true
+  no-reference: true

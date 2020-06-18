@@ -1,0 +1,340 @@
+{
+  "keys": "/home/asd/asd/museum-audiofilemanager/server/src/config/config.default.ts",
+  "middleware": "/home/asd/asd/museum-audiofilemanager/server/src/config/config.default.ts",
+  "static": {
+    "prefix": "/home/asd/asd/museum-audiofilemanager/server/src/config/config.default.ts",
+    "gzip": "/home/asd/asd/museum-audiofilemanager/server/src/config/config.default.ts",
+    "dir": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-static/config/config.default.js",
+    "preload": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-static/config/config.default.js"
+  },
+  "cors": {
+    "credentials": "/home/asd/asd/museum-audiofilemanager/server/src/config/config.default.ts",
+    "origin": "/home/asd/asd/museum-audiofilemanager/server/src/config/config.default.ts"
+  },
+  "sequelize": {
+    "dialect": "/home/asd/asd/museum-audiofilemanager/server/src/config/config.default.ts",
+    "host": "/home/asd/asd/museum-audiofilemanager/server/src/config/config.default.ts",
+    "port": "/home/asd/asd/museum-audiofilemanager/server/src/config/config.default.ts",
+    "database": "/home/asd/asd/museum-audiofilemanager/server/src/config/config.default.ts",
+    "username": "/home/asd/asd/museum-audiofilemanager/server/src/config/config.default.ts",
+    "password": "/home/asd/asd/museum-audiofilemanager/server/src/config/config.default.ts",
+    "logging": "/home/asd/asd/museum-audiofilemanager/server/src/config/config.default.ts"
+  },
+  "security": {
+    "csrf": {
+      "ignoreJSON": "/home/asd/asd/museum-audiofilemanager/server/node_modules/midway-web/config/config.local.js"
+    },
+    "domainWhiteList": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.default.js",
+      "value": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.default.js",
+      "value": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.default.js",
+      "value": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.default.js",
+      "policy": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-session/config/config.default.js",
+    "key": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-schedule/config/config.default.js",
+      "file": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "view": {
+    "root": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-view/config/config.default.js",
+    "cache": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-view/config/config.default.js",
+    "mapping": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+  "name": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+  "cookies": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+  "proxy": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "version": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "description": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "private": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "cross-env": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "egg-cors": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "egg-session": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "egg-view-assets": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "isomorphic-fetch": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "koa-send": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "lz-string": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "midway": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "mockjs": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "moment": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "mysql2": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "pg": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "pm2": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "sequelize": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "sequelize-typescript": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "shortid": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@types/koa-send": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "@types/bluebird": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "@types/http-proxy-middleware": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "@types/lodash": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "@types/lz-string": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "@types/mocha": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "@types/mockjs": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "@types/node": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "@types/sequelize": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "@types/shortid": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "git-rev-sync": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "midway-bin": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "midway-mock": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "n-prune": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "shelljs": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "ts-node": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "tslint": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "tslint-midway-contrib": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "typescript": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "umi": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "umi-plugin-ga": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "umi-plugin-react": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "clean": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "start_build": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "debug": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "lint": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "cov": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "ci": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "build": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "start": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "test": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "prod": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "generate-version": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "pack": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js"
+    },
+    "config": {
+      "build": {
+        "deps": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js"
+      },
+      "docker": {
+        "os": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js"
+      }
+    },
+    "midway-bin-build": {
+      "include": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js"
+    },
+    "midway-server-options": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "license": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+  "HOME": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+  "rundir": "/home/asd/asd/museum-audiofilemanager/server/node_modules/midway-web/config/config.default.js",
+  "dump": {
+    "ignore": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "notFound": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "sitefile": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "middlewares": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "httpClient": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "encoding": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "formLimit": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "textLimit": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "strict": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "depth": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "encoding": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "env": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "level": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "outputJSON": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "buffer": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "appLogName": "/home/asd/asd/museum-audiofilemanager/server/node_modules/midway-web/config/config.default.js",
+    "coreLogName": "/home/asd/asd/museum-audiofilemanager/server/node_modules/midway-web/config/config.default.js",
+    "agentLogName": "/home/asd/asd/museum-audiofilemanager/server/node_modules/midway-web/config/config.default.js",
+    "errorLogName": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "logging": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "port": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+      "hostname": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/config.default.js",
+  "pluginOverwrite": "/home/asd/asd/museum-audiofilemanager/server/node_modules/midway-web/config/config.default.js",
+  "container": {
+    "ignore": "/home/asd/asd/museum-audiofilemanager/server/node_modules/midway-web/config/config.default.js"
+  },
+  "alinode": {
+    "logdir": "/home/asd/asd/museum-audiofilemanager/server/node_modules/midway-web/config/config.default.js",
+    "error_log": "/home/asd/asd/museum-audiofilemanager/server/node_modules/midway-web/config/config.default.js",
+    "packages": "/home/asd/asd/museum-audiofilemanager/server/node_modules/midway-web/config/config.default.js"
+  }
+}

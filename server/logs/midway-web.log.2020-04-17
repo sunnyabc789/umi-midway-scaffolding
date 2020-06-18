@@ -1,0 +1,123 @@
+2020-04-10 17:39:51,795 ERROR 25913 [-/127.0.0.1/-/130ms GET /app/sugo-app-tag/tag-as-menu?q=N4IgrgzgpgTiBcoCWATBIBCBGA7ASQFkBHAFwCYAJAIxABoQoBbAQyQBt1mVGkA7AAQhgA5gHskogHQBjUYzogAZkhgQSAfV7NGUdIFDYwOV%2BgQu9AYC6ANFQWRYWnZ258FJAJ4AHXfBBUw7EgFoH9MzSJEgAbu4kMGBQ9LKMLsy8TgjIaB4UWFR4AF5EANJkAMoAWgo27iAABAooUBDSMEguIaK86ApBIeEIkdH0zm7oCU5QaPRIEOowoqIkPVExDCzsdjwCQmISMnIK0lBsbC4AFq0VWACsAGxklxcADGRkOLswUMwko%2BpUyfC8YAf0WpsKAfNKKZhsaD0MAuFDvT7fBB-AEgBpvUEAQTmHjId1wvjuOF8WAAnAAVQnwMgADngWAAzJJLiSACylaGw%2BEoLHoXG4gn04l3ClkOmXOnnSR3K6lAC%2BsX2hxOvDOZHpl2p5xZj2pWAUhREogASqJgRAEABtVLoQpObJ4ADi0gAmmQMOyQOVVgEQLV6o1mhI2r9-mx6Gp3pAEFh%2Bq4Kl4fP42rFXlyvk51IoANZI0OxI6JYQIjPZ3MouIJJLqVDoDJZXIFEovdGfd68vFEwnE8mUml0xk4NUemFw0HqNs4jsEomkik4Km0hmSQf0j0GsQAVWgMBNwJSIBrHkKWZI1IIJIK7ss2%2BraUwuEIpEoNHo02Bt5tdsdLrdHrRaYnEBcXxLtZ17RdGV1O5h05MdAOAzsZx7ec%2ByXKC5VlABdQIXBcCAAAVYB4CAICDc14AtEAIQ4bCQDfKBq14NQkBIMAWiYy1aL4ZjWPYyZD2RMMQBOHRx1w9BnSgAAxPInAADQ3O4QFlWUgA] nodejs.SequelizeDatabaseError: Unknown column 'SugoProtalTag.appTagId' in 'where clause'
+    at Query.formatError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/home/asd/asd/sugo-portal-app/server/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/home/asd/asd/sugo-portal-app/server/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/home/asd/asd/sugo-portal-app/server/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/home/asd/asd/sugo-portal-app/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/home/asd/asd/sugo-portal-app/server/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'SugoProtalTag.appTagId' in 'where clause'","sql":"SELECT `id`, `parent_id` AS `parentId`, `name`, `created_by` AS `createdBy`, `created_at` AS `createdAt`, `updated_by` AS `updatedBy`, `updated_at` AS `updatedAt` FROM `sugo_protal_tag` AS `SugoProtalTag` WHERE `SugoProtalTag`.`appTagId` = '' LIMIT 1;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'SugoProtalTag.appTagId' in 'where clause'","sql":"SELECT `id`, `parent_id` AS `parentId`, `name`, `created_by` AS `createdBy`, `created_at` AS `createdAt`, `updated_by` AS `updatedBy`, `updated_at` AS `updatedAt` FROM `sugo_protal_tag` AS `SugoProtalTag` WHERE `SugoProtalTag`.`appTagId` = '' LIMIT 1;"}
+sql: "SELECT `id`, `parent_id` AS `parentId`, `name`, `created_by` AS `createdBy`, `created_at` AS `createdAt`, `updated_by` AS `updatedBy`, `updated_at` AS `updatedAt` FROM `sugo_protal_tag` AS `SugoProtalTag` WHERE `SugoProtalTag`.`appTagId` = '' LIMIT 1;"
+parameters: undefined
+pid: 25913
+hostname: asd06
+
+2020-04-10 17:40:03,328 ERROR 25913 [-/127.0.0.1/-/105ms GET /app/sugo-app-tag/tag-as-menu?q=N4IgrgzgpgTiBcoCWATBIBCBGA7ASQFkBHAFwCYAJAIxABoQoBbAQyQBt1mVGkA7AAQhgA5gHskogHQBjUYzogAZkhgQSAfV7NGUdIFDYwOV%2BgQu9AYC6ANFQWRYWnZ258FJAJ4AHXfBBUw7EgFoH9MzSJEgAbu4kMGBQ9LKMLsy8TgjIaB4UWFR4AF5EANJkAMoAWgo27iAABAooUBDSMEguIaK86ApBIeEIkdH0zm7oCU5QaPRIEOowoqIkPVExDCzsdjwCQmISMnIK0lBsbC4AFq0VWACsAGxklxcADGRkOLswUMwko%2BpUyfC8YAf0WpsKAfNKKZhsaD0MAuFDvT7fBB-AEgBpvUEAQTmHjId1wvjuOF8WAAnAAVQnwMgADngWAAzJJLiSACylaGw%2BEoLHoXG4gn04l3ClkOmXOnnSR3K6lAC%2BsX2hxOvDOZHpl2p5xZj2pWAUhREogASqJgRAEABtVLoQpObJ4ADi0gAmmQMOyQOVVgEQLV6o1mhI2r9-mx6Gp3pAEFh%2Bq4Kl4fP42rFXlyvk51IoANZI0OxI6JYQIjPZ3MouIJJLqVDoDJZXIFEovdGfd68vFEwnE8mUml0xk4NUemFw0HqNs4jsEomkik4Km0hmSQf0j0GsQAVWgMBNwJSIBrHkKWZI1IIJIK7ss2%2BraUwuEIpEoNHo02Bt5tdsdLrdHrRaYnEBcXxLtZ17RdGV1O5h05MdAOAzsZx7ec%2ByXKC5VlABdQIXBcCAAAVYB4CAICDc14AtEAIQ4bCQDfKBq14NQkBIMAWiYy1aL4ZjWPYyZD2RMMQBOHRx1w9BnSgAAxPInAADQ3O4QFlWUgA] nodejs.SequelizeDatabaseError: Unknown column 'SugoProtalTag.appTagId' in 'where clause'
+    at Query.formatError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/home/asd/asd/sugo-portal-app/server/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/home/asd/asd/sugo-portal-app/server/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/home/asd/asd/sugo-portal-app/server/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/home/asd/asd/sugo-portal-app/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/home/asd/asd/sugo-portal-app/server/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'SugoProtalTag.appTagId' in 'where clause'","sql":"SELECT `id`, `parent_id` AS `parentId`, `name`, `created_by` AS `createdBy`, `created_at` AS `createdAt`, `updated_by` AS `updatedBy`, `updated_at` AS `updatedAt` FROM `sugo_protal_tag` AS `SugoProtalTag` WHERE `SugoProtalTag`.`appTagId` = '' LIMIT 1;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'SugoProtalTag.appTagId' in 'where clause'","sql":"SELECT `id`, `parent_id` AS `parentId`, `name`, `created_by` AS `createdBy`, `created_at` AS `createdAt`, `updated_by` AS `updatedBy`, `updated_at` AS `updatedAt` FROM `sugo_protal_tag` AS `SugoProtalTag` WHERE `SugoProtalTag`.`appTagId` = '' LIMIT 1;"}
+sql: "SELECT `id`, `parent_id` AS `parentId`, `name`, `created_by` AS `createdBy`, `created_at` AS `createdAt`, `updated_by` AS `updatedBy`, `updated_at` AS `updatedAt` FROM `sugo_protal_tag` AS `SugoProtalTag` WHERE `SugoProtalTag`.`appTagId` = '' LIMIT 1;"
+parameters: undefined
+pid: 25913
+hostname: asd06
+
+2020-04-10 17:40:22,535 ERROR 25913 [-/127.0.0.1/-/116ms GET /app/sugo-app-tag/tag-as-menu?q=N4IgrgzgpgTiBcoCWATBIBCBGA7ASQFkBHAFwCYAJAIxABoQoBbAQyQBt1mVGkA7AAQhgA5gHskogHQBjUYzogAZkhgQSAfV7NGUdIFDYwOV%2BgQu9AYC6ANFQWRYWnZ258FJAJ4AHXfBBUw7EgFoH9MzSJEgAbu4kMGBQ9LKMLsy8TgjIaB4UWFR4AF5EANJkAMoAWgo27iAABAooUBDSMEguIaK86ApBIeEIkdH0zm7oCU5QaPRIEOowoqIkPVExDCzsdjwCQmISMnIK0lBsbC4AFq0VWACsAGxklxcADGRkOLswUMwko%2BpUyfC8YAf0WpsKAfNKKZhsaD0MAuFDvT7fBB-AEgBpvUEAQTmHjId1wvjuOF8WAAnAAVQnwMgADngWAAzJJLiSACylaGw%2BEoLHoXG4gn04l3ClkOmXOnnSR3K6lAC%2BsX2hxOvDOZHpl2p5xZj2pWAUhREogASqJgRAEABtVLoQpObJ4ADi0gAmmQMOyQOVVgEQLV6o1mhI2r9-mx6Gp3pAEFh%2Bq4Kl4fP42rFXlyvk51IoANZI0OxI6JYQIjPZ3MouIJJLqVDoDJZXIFEovdGfd68vFEwnE8mUml0xk4NUemFw0HqNs4jsEomkik4Km0hmSQf0j0GsQAVWgMBNwJSIBrHkKWZI1IIJIK7ss2%2BraUwuEIpEoNHo02Bt5tdsdLrdHrRaYnEBcXxLtZ17RdGV1O5h05MdAOAzsZx7ec%2ByXKC5VlABdQIXBcCAAAVYB4CAICDc14AtEAIQ4bCQDfKBq14NQkBIMAWiYy1aL4ZjWPYyZD2RMMQBOHRx1w9BnSgAAxPInAADQ3O4QFlWUgA] nodejs.SequelizeDatabaseError: Unknown column 'SugoProtalTag.appTagId' in 'where clause'
+    at Query.formatError (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/home/asd/asd/sugo-portal-app/server/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/home/asd/asd/sugo-portal-app/server/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/home/asd/asd/sugo-portal-app/server/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/home/asd/asd/sugo-portal-app/server/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/home/asd/asd/sugo-portal-app/server/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'SugoProtalTag.appTagId' in 'where clause'","sql":"SELECT `id`, `parent_id` AS `parentId`, `name`, `created_by` AS `createdBy`, `created_at` AS `createdAt`, `updated_by` AS `updatedBy`, `updated_at` AS `updatedAt` FROM `sugo_protal_tag` AS `SugoProtalTag` WHERE `SugoProtalTag`.`appTagId` = '' LIMIT 1;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'SugoProtalTag.appTagId' in 'where clause'","sql":"SELECT `id`, `parent_id` AS `parentId`, `name`, `created_by` AS `createdBy`, `created_at` AS `createdAt`, `updated_by` AS `updatedBy`, `updated_at` AS `updatedAt` FROM `sugo_protal_tag` AS `SugoProtalTag` WHERE `SugoProtalTag`.`appTagId` = '' LIMIT 1;"}
+sql: "SELECT `id`, `parent_id` AS `parentId`, `name`, `created_by` AS `createdBy`, `created_at` AS `createdAt`, `updated_by` AS `updatedBy`, `updated_at` AS `updatedAt` FROM `sugo_protal_tag` AS `SugoProtalTag` WHERE `SugoProtalTag`.`appTagId` = '' LIMIT 1;"
+parameters: undefined
+pid: 25913
+hostname: asd06
+
+2020-04-16 17:46:20,971 ERROR 18877 [-/127.0.0.1/-/5ms GET /app/sugo-app-tag/tag-as-menu?q=N4IgrgzgpgTiBcoCWATBIBCApAWgDgGYArJAdwHEBzEAGhCgFsBDJAG3SZQaQDsABAIwAmAgDoAxgHsGtEADMkMCABcA%2BjyYMo6QKGxgcr9Ahd6AwF0AaKrMiwNWjl16zlATwAO2%2BCABGYNsoC0dukziykgAbq7KMGBQdFIMTkw8DgjIaG4AylgAMjxEkhTadFauIIC0coC-aoCDKYD3sYD%2BeoB7uoACOoBjaYBHaoCQ5oAKaYA2ioAfyrIoUBDiMEhOwZI86LKBwWEIEVF0ji7o8Q5QaHRIEKowkpLK85HR9MxsNtz8EGCUkkiSEtKy4lCsrE4AFhPFzzBQTMoNqp3El4DwwG86ANWFBAak5ExWNA6GAnCgAUCQQhwZCQMN-nCAIKHNxCAAMAgAbD4BAIfEIAOwAFTJZPgABYBPABHhRAQhABOHDmNEYlDE9Dk8k%2BMnsmlkllCeBCPDKsQCAhCkAAXxir3eXx4rhxrDoaRukgASpIYRAEABtFLoNICAAehCIRAAInJ2IVNMVOJd%2BoNhqNxpMwRDTSAVADIAgBEtnMVPN4-JMYn8xcCHKo5ABrbHRmIfBKUTF5wvF3GxeKJVSoZ1ZHJ5cgFPHZuGqAGSinU2n05msjlcnl8ykAVmFKNF3d7pP7NLpjJZbM53N5BCnM5A5tuAFVoDBrTDkiAm24ABI8g8EJBEUgAWWoKOPjdSmFwHrIVFkexhD9nTdD1vV9X4CSBBcQHJKllyHNdR03Pk8AZXdUXRecSRgpdB1XEcN3HAhUOFbVtQAXQCJwnAgAAFWBuAgCB7h4O14HtEBEXYSiQAAqBG1Y4JlDACM2PtHjeBUJBhNEoCo1xL4tB7aj0BCDBeA%2BLAAE0mUmMigA] nodejs.SequelizeHostNotReachableError: connect EHOSTUNREACH 192.168.0.198:3306
+    at Promise.tap.then.catch.err (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+name: "SequelizeHostNotReachableError"
+parent: {"errno":"EHOSTUNREACH","code":"EHOSTUNREACH","syscall":"connect","address":"192.168.0.198","port":3306,"fatal":true}
+original: {"errno":"EHOSTUNREACH","code":"EHOSTUNREACH","syscall":"connect","address":"192.168.0.198","port":3306,"fatal":true}
+pid: 18877
+hostname: asd06
+
+2020-04-16 17:46:39,896 ERROR 18877 [-/127.0.0.1/-/5ms GET /app/sugo-app-tag/tag-as-menu?q=N4IgrgzgpgTiBcoCWATBIBCApAWgDgGYArJAdwHEBzEAGhCgFsBDJAG3SZQaQDsABAIwAmAgDoAxgHsGtEADMkMCABcA%2BjyYMo6QKGxgcr9Ahd6AwF0AaKrMiwNWjl16zlATwAO2%2BCABGYNsoC0dukziykgAbq7KMGBQdFIMTkw8DgjIaG4AylgAMjxEkhTadFauIIC0coC-aoCDKYD3sYD%2BeoB7uoACOoBjaYBHaoCQ5oAKaYA2ioAfyrIoUBDiMEhOwZI86LKBwWEIEVF0ji7o8Q5QaHRIEKowkpLK85HR9MxsNtz8EGCUkkiSEtKy4lCsrE4AFhPFzzBQTMoNqp3El4DwwG86ANWFBAak5ExWNA6GAnCgAUCQQhwZCQMN-nCAIKHNxCAAMAgAbD4BAIfEIAOwAFTJZPgABYBPABHhRAQhABOHDmNEYlDE9Dk8k%2BMnsmlkllCeBCPDKsQCAhCkAAXxir3eXx4rhxrDoaRukgASpIYRAEABtFLoNICAAehCIRAAInJ2IVNMVOJd%2BoNhqNxpMwRDTSAVADIAgBEtnMVPN4-JMYn8xcCHKo5ABrbHRmIfBKUTF5wvF3GxeKJVSoZ1ZHJ5cgFPHZuGqAGSinU2n05msjlcnl8ykAVmFKNF3d7pP7NLpjJZbM53N5BCnM5A5tuAFVoDBrTDkiAm24ABI8g8EJBEUgAWWoKOPjdSmFwHrIVFkexhD9nTdD1vV9X4CSBBcQHJKllyHNdR03Pk8AZXdUXRecSRgpdB1XEcN3HAhUOFbVtQAXQCJwnAgAAFWBuAgCB7h4O14HtEBEXYSiQAAqBG1Y4JlDACM2PtHjeBUJBhNEoCo1xL4tB7aj0BCDBeA%2BLAAE0mUmMigA] nodejs.SequelizeHostNotReachableError: connect EHOSTUNREACH 192.168.0.198:3306
+    at Promise.tap.then.catch.err (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+name: "SequelizeHostNotReachableError"
+parent: {"errno":"EHOSTUNREACH","code":"EHOSTUNREACH","syscall":"connect","address":"192.168.0.198","port":3306,"fatal":true}
+original: {"errno":"EHOSTUNREACH","code":"EHOSTUNREACH","syscall":"connect","address":"192.168.0.198","port":3306,"fatal":true}
+pid: 18877
+hostname: asd06
+
+2020-04-16 17:47:03,154 ERROR 18877 [-/127.0.0.1/-/3ms GET /app/sugo-app-tag/tag-as-menu?q=N4IgrgzgpgTiBcoCWATBIBCApAWgDgGYArJAdwHEBzEAGhCgFsBDJAG3SZQaQDsABAIwAmAgDoAxgHsGtEADMkMCABcA%2BjyYMo6QKGxgcr9Ahd6AwF0AaKrMiwNWjl16zlATwAO2%2BCABGYNsoC0dukziykgAbq7KMGBQdFIMTkw8DgjIaG4AylgAMjxEkhTadFauIIC0coC-aoCDKYD3sYD%2BeoB7uoACOoBjaYBHaoCQ5oAKaYA2ioAfyrIoUBDiMEhOwZI86LKBwWEIEVF0ji7o8Q5QaHRIEKowkpLK85HR9MxsNtz8EGCUkkiSEtKy4lCsrE4AFhPFzzBQTMoNqp3El4DwwG86ANWFBAak5ExWNA6GAnCgAUCQQhwZCQMN-nCAIKHNxCAAMAgAbD4BAIfEIAOwAFTJZPgABYBPABHhRAQhABOHDmNEYlDE9Dk8k%2BMnsmlkllCeBCPDKsQCAhCkAAXxir3eXx4rhxrDoaRukgASpIYRAEABtFLoNICAAehCIRAAInJ2IVNMVOJd%2BoNhqNxpMwRDTSAVADIAgBEtnMVPN4-JMYn8xcCHKo5ABrbHRmIfBKUTF5wvF3GxeKJVSoZ1ZHJ5cgFPHZuGqAGSinU2n05msjlcnl8ykAVmFKNF3d7pP7NLpjJZbM53N5BCnM5A5tuAFVoDBrTDkiAm24ABI8g8EJBEUgAWWoKOPjdSmFwHrIVFkexhD9nTdD1vV9X4CSBBcQHJKllyHNdR03Pk8AZXdUXRecSRgpdB1XEcN3HAhUOFbVtQAXQCJwnAgAAFWBuAgCB7h4O14HtEBEXYSiQAAqBG1Y4JlDACM2PtHjeBUJBhNEoCo1xL4tB7aj0BCDBeA%2BLAAE0mUmMigA] nodejs.SequelizeHostNotReachableError: connect EHOSTUNREACH 192.168.0.198:3306
+    at Promise.tap.then.catch.err (/home/asd/asd/sugo-portal-app/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:129:19)
+    at tryCatcher (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/promise.js:725:18)
+    at _drainQueueStep (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/asd/asd/sugo-portal-app/server/node_modules/bluebird/js/release/async.js:15:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+name: "SequelizeHostNotReachableError"
+parent: {"errno":"EHOSTUNREACH","code":"EHOSTUNREACH","syscall":"connect","address":"192.168.0.198","port":3306,"fatal":true}
+original: {"errno":"EHOSTUNREACH","code":"EHOSTUNREACH","syscall":"connect","address":"192.168.0.198","port":3306,"fatal":true}
+pid: 18877
+hostname: asd06
+

@@ -1,0 +1,73 @@
+digraph G {
+  "sugoProtalExtAppTagRelationController" [ label = "sugoProtalExtAppTagRelationController(SugoProtalExtAppTagRelationController)
+scope:Request", fontsize = 10 ];
+  "sugoProtalAppTagRelationService" [ label = "sugoProtalAppTagRelationService(SugoProtalAppTagRelationService)
+scope:Request", fontsize = 10 ];
+  "sugoProtalTagAppOrderService" [ label = "sugoProtalTagAppOrderService(SugoProtalTagAppOrderService)
+scope:Request", fontsize = 10 ];
+  "sugoProtalExtappController" [ label = "sugoProtalExtappController(SugoProtalExtappController)
+scope:Request", fontsize = 10 ];
+  "sugoPortalExtAppService" [ label = "sugoPortalExtAppService(SugoPortalExtAppService)
+scope:Request", fontsize = 10 ];
+  "sugoProtalTagService" [ label = "sugoProtalTagService(SugoProtalTagService)
+scope:Request", fontsize = 10 ];
+  "sugoExtappClickcountService" [ label = "sugoExtappClickcountService(SugoExtappClickcountService)
+scope:Request", fontsize = 10 ];
+  "sugoProtalTagOrderController" [ label = "sugoProtalTagOrderController(SugoProtalTagOrderController)
+scope:Request", fontsize = 10 ];
+  "sugoProtalTagOrderService" [ label = "sugoProtalTagOrderService(SugoProtalTagOrderService)
+scope:Request", fontsize = 10 ];
+  "sugoProtalTagController" [ label = "sugoProtalTagController(SugoProtalTagController)
+scope:Request", fontsize = 10 ];
+  "sugoExtappClickcountController" [ label = "sugoExtappClickcountController(SugoExtappClickcountController)
+scope:Request", fontsize = 10 ];
+  "homeController" [ label = "homeController(HomeController)
+scope:Request", fontsize = 10 ];
+  "ctx";
+  "sugoProtalExtappUserRelationsController" [ label = "sugoProtalExtappUserRelationsController(SugoProtalExtappUserRelationsController)
+scope:Request", fontsize = 10 ];
+  "sugoExtappUserRelationService" [ label = "sugoExtappUserRelationService(SugoExtappUserRelationService)
+scope:Request", fontsize = 10 ];
+  "DB" [ label = "DB(DB)
+scope:Singleton", fontsize = 10 ];
+  "SugoExtappClickcount" [ label = "SugoExtappClickcount()
+scope:undefined", fontsize = 10 ];
+  "SugoPortalExtApp" [ label = "SugoPortalExtApp()
+scope:undefined", fontsize = 10 ];
+  "SugoProtalAppTagRelation" [ label = "SugoProtalAppTagRelation()
+scope:undefined", fontsize = 10 ];
+  "SugoProtalTag" [ label = "SugoProtalTag()
+scope:undefined", fontsize = 10 ];
+  "SugoProtalTagAppOrder" [ label = "SugoProtalTagAppOrder()
+scope:undefined", fontsize = 10 ];
+  "SugoProtalTagOrder" [ label = "SugoProtalTagOrder()
+scope:undefined", fontsize = 10 ];
+  "SugoUserExtappRelation" [ label = "SugoUserExtappRelation()
+scope:undefined", fontsize = 10 ];
+  "externalDbQueryService" [ label = "externalDbQueryService(ExternalDbQueryService)
+scope:Request", fontsize = 10 ];
+  "sugoProtalExtAppTagRelationController" -> "sugoProtalAppTagRelationService" [ label = "properties", fontsize = 8 ];
+  "sugoProtalExtAppTagRelationController" -> "sugoProtalTagAppOrderService" [ label = "properties", fontsize = 8 ];
+  "sugoProtalExtappController" -> "sugoPortalExtAppService" [ label = "properties", fontsize = 8 ];
+  "sugoProtalExtappController" -> "sugoProtalTagService" [ label = "properties", fontsize = 8 ];
+  "sugoProtalExtappController" -> "sugoProtalAppTagRelationService" [ label = "properties", fontsize = 8 ];
+  "sugoProtalExtappController" -> "sugoProtalTagAppOrderService" [ label = "properties", fontsize = 8 ];
+  "sugoProtalExtappController" -> "sugoExtappClickcountService" [ label = "properties", fontsize = 8 ];
+  "sugoProtalTagOrderController" -> "sugoProtalTagOrderService" [ label = "properties", fontsize = 8 ];
+  "sugoProtalTagController" -> "sugoProtalTagService" [ label = "properties", fontsize = 8 ];
+  "sugoProtalTagController" -> "sugoProtalTagOrderService" [ label = "properties", fontsize = 8 ];
+  "sugoProtalTagController" -> "sugoProtalTagAppOrderService" [ label = "properties", fontsize = 8 ];
+  "sugoProtalTagController" -> "sugoProtalAppTagRelationService" [ label = "properties", fontsize = 8 ];
+  "sugoExtappClickcountController" -> "sugoExtappClickcountService" [ label = "properties", fontsize = 8 ];
+  "homeController" -> "ctx" [ label = "properties", fontsize = 8 ];
+  "sugoProtalExtappUserRelationsController" -> "sugoExtappUserRelationService" [ label = "properties", fontsize = 8 ];
+  "sugoProtalAppTagRelationService" -> "SugoProtalAppTagRelation" [ label = "constructor", fontsize = 8 ];
+  "sugoPortalExtAppService" -> "sugoProtalAppTagRelationService" [ label = "properties", fontsize = 8 ];
+  "sugoPortalExtAppService" -> "sugoProtalTagAppOrderService" [ label = "properties", fontsize = 8 ];
+  "sugoPortalExtAppService" -> "SugoPortalExtApp" [ label = "constructor", fontsize = 8 ];
+  "sugoProtalTagService" -> "SugoProtalTag" [ label = "constructor", fontsize = 8 ];
+  "sugoProtalTagOrderService" -> "SugoProtalTagOrder" [ label = "constructor", fontsize = 8 ];
+  "sugoProtalTagAppOrderService" -> "SugoProtalTagAppOrder" [ label = "constructor", fontsize = 8 ];
+  "sugoExtappClickcountService" -> "SugoExtappClickcount" [ label = "constructor", fontsize = 8 ];
+  "sugoExtappUserRelationService" -> "SugoUserExtappRelation" [ label = "constructor", fontsize = 8 ];
+}

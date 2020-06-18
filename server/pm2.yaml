@@ -1,0 +1,10 @@
+apps:
+    name: sugo-portal
+    script: server.js
+    instances: 1
+    exec_mode: fork
+    error_file: ./logs/sugo-portal_err.log
+    out_file: ./logs/sugo-portal_out.log
+    pid_file: ./pids/sugo-portal.pid
+    env:
+        NODE_ENV: production

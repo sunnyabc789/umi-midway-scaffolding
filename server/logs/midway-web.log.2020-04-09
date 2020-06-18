@@ -1,0 +1,56 @@
+2020-04-02 18:04:28,544 ERROR 29470 [-/127.0.0.1/-/54ms POST /app/sugo-app] nodejs.TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+    at SugoProtalExtappController.create (/home/asd/asd/sugo-portal-app/server/dist/app/controller/application.js:64:32)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 29470
+hostname: asd06
+
+2020-04-02 18:04:42,729 ERROR 29470 [-/127.0.0.1/-/1ms POST /app/sugo-app] nodejs.TypeError: Cannot destructure property `id` of 'undefined' or 'null'.
+    at SugoProtalExtappController.create (/home/asd/asd/sugo-portal-app/server/dist/app/controller/application.js:64:32)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 29470
+hostname: asd06
+
+2020-04-07 19:11:46,049 ERROR 26563 [-/127.0.0.1/-/9ms GET /app/sugo-app-tag/tag-as-menu] nodejs.TypeError: Cannot destructure property `appsPermissions` of 'undefined' or 'null'.
+    at SugoProtalTagController.getTagAsMenu (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:24:37)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26563
+hostname: asd06
+
+2020-04-07 19:11:46,469 ERROR 26563 [-/127.0.0.1/-/1ms GET /app/sugo-app-tag/tag-as-menu] nodejs.TypeError: Cannot destructure property `appsPermissions` of 'undefined' or 'null'.
+    at SugoProtalTagController.getTagAsMenu (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:24:37)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26563
+hostname: asd06
+
+2020-04-07 19:11:55,049 ERROR 26563 [-/127.0.0.1/-/1ms GET /app/sugo-app-tag/tag-as-menu] nodejs.TypeError: Cannot destructure property `appsPermissions` of 'undefined' or 'null'.
+    at SugoProtalTagController.getTagAsMenu (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:24:37)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26563
+hostname: asd06
+
+2020-04-07 19:13:12,557 ERROR 26563 [-/127.0.0.1/-/1ms GET /app/sugo-app-tag/tag-as-menu] nodejs.TypeError: Cannot destructure property `appsPermissions` of 'undefined' or 'null'.
+    at SugoProtalTagController.getTagAsMenu (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:24:37)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 26563
+hostname: asd06
+
+2020-04-07 19:13:31,539 ERROR 27268 [-/127.0.0.1/-/9ms GET /app/sugo-app-tag/tag-as-menu] nodejs.TypeError: Cannot destructure property `appsPermissions` of 'undefined' or 'null'.
+    at SugoProtalTagController.getTagAsMenu (/home/asd/asd/sugo-portal-app/server/dist/app/controller/apptag.js:24:37)
+    at Object.<anonymous> (/home/asd/asd/sugo-portal-app/server/node_modules/midway-web/dist/loader/webLoader.js:235:43)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 27268
+hostname: asd06
+
