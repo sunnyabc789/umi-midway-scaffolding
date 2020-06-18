@@ -8,6 +8,7 @@ coverage/
 dist/
 .idea/
 server/run/
+server/logs/
 !server/cmds/run
 !server/cmds/stop
 .DS_Store
@@ -29,6 +30,3 @@ run/
 
 # manifest.json
 version
-
-server/log
-server/logs
