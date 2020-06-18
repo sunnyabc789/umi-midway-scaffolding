@@ -508,3 +508,9 @@
 2020-06-18 13:56:50,919 INFO 22859 [Timer] /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 52389084ms at 2020-06-19 04:30:00.003
 2020-06-18 13:56:50,920 INFO 22859 [Timer] /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 36189080ms at 2020-06-19 00:00:00.000
 2020-06-18 13:56:50,920 INFO 22859 [Timer] /home/asd/asd/museum-audiofilemanager/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 36190080ms at 2020-06-19 00:00:01.000
+2020-06-18 15:52:00,062 INFO 15640 [egg-schedule]: register schedule /home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-06-18 15:52:00,062 INFO 15640 [egg-schedule]: register schedule /home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-06-18 15:52:00,062 INFO 15640 [egg-schedule]: register schedule /home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-06-18 15:52:00,237 INFO 15598 [Timer] /home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45479766ms at 2020-06-19 04:30:00.003
+2020-06-18 15:52:00,237 INFO 15598 [Timer] /home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 29279763ms at 2020-06-19 00:00:00.000
+2020-06-18 15:52:00,237 INFO 15598 [Timer] /home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29280763ms at 2020-06-19 00:00:01.000

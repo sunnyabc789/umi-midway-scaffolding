@@ -1,0 +1,31 @@
+logs/
+npm-debug.log
+yarn-error.log
+node_modules/
+package-lock.json
+yarn.lock
+coverage/
+dist/
+.idea/
+server/run/
+!server/cmds/run
+!server/cmds/stop
+.DS_Store
+*.sw*
+*.un~
+.tsbuildinfo
+.tsbuildinfo.*
+public/
+release/
+server/*.tar.gz
+config.local.*
+server/run/
+!server/cmds/run
+!server/cmds/stop
+run/
+# umi
+.umi
+.umi-production
+
+# manifest.json
+version

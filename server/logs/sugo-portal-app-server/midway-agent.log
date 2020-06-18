@@ -759,3 +759,13 @@
 2020-06-18 13:56:48,916 INFO 22859 [egg-watcher] Start watching: "/home/asd/asd/museum-audiofilemanager/server/src/app.js"
 2020-06-18 13:56:48,916 INFO 22859 [egg-watcher:agent] watcher start success
 2020-06-18 13:56:48,929 INFO 22859 [egg:core] dump config after ready, 3ms
+2020-06-18 15:51:59,045 INFO 15598 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/testOnGit/umi-midway-scaffolding/server/logs/sugo-portal-app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-06-18 15:51:59,055 INFO 15598 [egg:core] dump config after load, 4ms
+2020-06-18 15:51:59,085 INFO 15598 [egg-watcher] Start watching: ["/home/asd/asd/testOnGit/umi-midway-scaffolding/server/src/app","/home/asd/asd/testOnGit/umi-midway-scaffolding/server/src/config","/home/asd/asd/testOnGit/umi-midway-scaffolding/server/src/mocks","/home/asd/asd/testOnGit/umi-midway-scaffolding/server/src/mocks_proxy","/home/asd/asd/testOnGit/umi-midway-scaffolding/server/src/app.js"]
+2020-06-18 15:51:59,085 INFO 15598 [egg-watcher] Start watching: "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/src/app"
+2020-06-18 15:51:59,085 INFO 15598 [egg-watcher] Start watching: "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/src/config"
+2020-06-18 15:51:59,085 INFO 15598 [egg-watcher] Start watching: "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/src/mocks"
+2020-06-18 15:51:59,085 INFO 15598 [egg-watcher] Start watching: "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/src/mocks_proxy"
+2020-06-18 15:51:59,085 INFO 15598 [egg-watcher] Start watching: "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/src/app.js"
+2020-06-18 15:51:59,085 INFO 15598 [egg-watcher:agent] watcher start success
+2020-06-18 15:51:59,095 INFO 15598 [egg:core] dump config after ready, 3ms

@@ -1845,3 +1845,17 @@
 2020-06-18 13:56:50,516 INFO 22912 [egg:core] dump config after load, 6ms
 2020-06-18 13:56:50,881 INFO 22912 [egg-watcher:application] watcher start success
 2020-06-18 13:56:50,912 INFO 22912 [egg:core] dump config after ready, 4ms
+2020-06-18 15:52:00,038 INFO 15640 [egg:logger] init all loggers with options: {"dir":"/home/asd/asd/testOnGit/umi-midway-scaffolding/server/logs/sugo-portal-app-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"midway-web.log","coreLogName":"midway-core.log","agentLogName":"midway-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-18 15:52:00,062 INFO 15640 [egg-multipart] stream mode enable
+2020-06-18 15:52:00,089 INFO 15640 [egg-static] starting static serve /static-apps/portal/ -> /home/asd/asd/testOnGit/umi-midway-scaffolding/server/src/app/public
+2020-06-18 15:52:00,091 INFO 15640 [egg-security] use csrf middleware
+2020-06-18 15:52:00,092 INFO 15640 [egg-security] use methodnoallow middleware
+2020-06-18 15:52:00,092 INFO 15640 [egg-security] use noopen middleware
+2020-06-18 15:52:00,093 INFO 15640 [egg-security] use nosniff middleware
+2020-06-18 15:52:00,093 INFO 15640 [egg-security] use xssProtection middleware
+2020-06-18 15:52:00,094 INFO 15640 [egg-security] use xframe middleware
+2020-06-18 15:52:00,094 INFO 15640 [egg-security] use dta middleware
+2020-06-18 15:52:00,094 INFO 15640 [egg-security] compose 7 middlewares into one security middleware
+2020-06-18 15:52:00,101 INFO 15640 [egg:core] dump config after load, 5ms
+2020-06-18 15:52:00,202 INFO 15640 [egg-watcher:application] watcher start success
+2020-06-18 15:52:00,231 INFO 15640 [egg:core] dump config after ready, 5ms

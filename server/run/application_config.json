@@ -79,28 +79,28 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-session/config/locales",
-        "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security/config/locales",
-        "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-jsonp/config/locales",
-        "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-onerror/config/locales",
-        "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-i18n/config/locales",
-        "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-watcher/config/locales",
-        "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-schedule/config/locales",
-        "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-multipart/config/locales",
-        "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-development/config/locales",
-        "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-logrotator/config/locales",
-        "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-static/config/locales",
-        "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-view/config/locales",
-        "/home/asd/asd/museum-audiofilemanager/server/node_modules/midway-schedule/config/locales",
-        "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-cors/config/locales",
-        "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/locales",
-        "/home/asd/asd/museum-audiofilemanager/server/node_modules/midway-web/config/locales",
-        "/home/asd/asd/museum-audiofilemanager/server/src/config/locales"
+        "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-session/config/locales",
+        "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-security/config/locales",
+        "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-jsonp/config/locales",
+        "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-onerror/config/locales",
+        "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-i18n/config/locales",
+        "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-watcher/config/locales",
+        "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-schedule/config/locales",
+        "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-multipart/config/locales",
+        "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-development/config/locales",
+        "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-logrotator/config/locales",
+        "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-static/config/locales",
+        "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-view/config/locales",
+        "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/midway-schedule/config/locales",
+        "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-cors/config/locales",
+        "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg/config/locales",
+        "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/midway-web/config/locales",
+        "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/src/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -111,8 +111,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -158,7 +158,7 @@
     },
     "static": {
       "prefix": "/static-apps/portal/",
-      "dir": "/home/asd/asd/museum-audiofilemanager/server/src/app/public",
+      "dir": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/src/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -166,7 +166,7 @@
       "gzip": true
     },
     "view": {
-      "root": "/home/asd/asd/museum-audiofilemanager/server/src/app/view",
+      "root": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/src/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -268,9 +268,9 @@
       "midway-server-options": "./server.json",
       "license": "ISC"
     },
-    "baseDir": "/home/asd/asd/museum-audiofilemanager/server/src",
+    "baseDir": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/src",
     "HOME": "/home/asd",
-    "rundir": "/home/asd/asd/museum-audiofilemanager/server/run",
+    "rundir": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -302,7 +302,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/home/asd/asd/museum-audiofilemanager/server/logs/sugo-portal-app-server",
+      "dir": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/logs/sugo-portal-app-server",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -383,16 +383,16 @@
         "**/config/**",
         "**/app/extend/**"
       ],
-      "baseDir": "/home/asd/asd/museum-audiofilemanager/server/src"
+      "baseDir": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/src"
     },
     "alinode": {
       "logdir": "/tmp",
       "error_log": [
-        "/home/asd/asd/museum-audiofilemanager/server/logs/sugo-portal-app-server/common-error.log",
-        "/home/asd/asd/museum-audiofilemanager/server/logs/stderr.log"
+        "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/logs/sugo-portal-app-server/common-error.log",
+        "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/logs/stderr.log"
       ],
       "packages": [
-        "/home/asd/asd/museum-audiofilemanager/server/package.json"
+        "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/package.json"
       ]
     },
     "middleware": [
@@ -431,9 +431,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/plugin.js",
-      "path": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-session",
-      "version": "3.1.0"
+      "from": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg/config/plugin.js",
+      "path": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-session",
+      "version": "3.2.0"
     },
     "security": {
       "enable": true,
@@ -444,9 +444,9 @@
         "session"
       ],
       "env": [],
-      "from": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/plugin.js",
-      "path": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-security",
-      "version": "2.7.1"
+      "from": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg/config/plugin.js",
+      "path": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-security",
+      "version": "2.8.0"
     },
     "jsonp": {
       "enable": true,
@@ -457,8 +457,8 @@
         "security"
       ],
       "env": [],
-      "from": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/plugin.js",
-      "path": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-jsonp",
+      "from": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg/config/plugin.js",
+      "path": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -470,8 +470,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/plugin.js",
-      "path": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-onerror",
+      "from": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg/config/plugin.js",
+      "path": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -481,8 +481,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/plugin.js",
-      "path": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-i18n",
+      "from": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg/config/plugin.js",
+      "path": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -492,8 +492,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/plugin.js",
-      "path": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-watcher",
+      "from": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg/config/plugin.js",
+      "path": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-watcher",
       "version": "3.1.1"
     },
     "schedule": {
@@ -503,8 +503,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/plugin.js",
-      "path": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-schedule",
+      "from": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg/config/plugin.js",
+      "path": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -516,9 +516,9 @@
         "schedule"
       ],
       "env": [],
-      "from": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/plugin.js",
-      "path": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-multipart",
-      "version": "2.10.2"
+      "from": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg/config/plugin.js",
+      "path": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-multipart",
+      "version": "2.10.3"
     },
     "development": {
       "enable": true,
@@ -531,9 +531,9 @@
       "env": [
         "local"
       ],
-      "from": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/plugin.js",
-      "path": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-development",
-      "version": "2.4.3"
+      "from": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg/config/plugin.js",
+      "path": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-development",
+      "version": "2.5.0"
     },
     "logrotator": {
       "enable": true,
@@ -544,8 +544,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/plugin.js",
-      "path": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-logrotator",
+      "from": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg/config/plugin.js",
+      "path": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -555,8 +555,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/asd/asd/museum-audiofilemanager/server/src/config/plugin.ts",
-      "path": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-static",
+      "from": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/src/config/plugin.ts",
+      "path": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -566,8 +566,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg/config/plugin.js",
-      "path": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-view",
+      "from": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg/config/plugin.js",
+      "path": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-view",
       "version": "2.1.2"
     },
     "schedulePlus": {
@@ -579,9 +579,9 @@
         "schedule"
       ],
       "env": [],
-      "from": "/home/asd/asd/museum-audiofilemanager/server/node_modules/midway-web/config/plugin.js",
-      "path": "/home/asd/asd/museum-audiofilemanager/server/node_modules/midway-schedule",
-      "version": "1.18.2"
+      "from": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/midway-web/config/plugin.js",
+      "path": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/midway-schedule",
+      "version": "1.20.1"
     },
     "cors": {
       "enable": true,
@@ -590,8 +590,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/home/asd/asd/museum-audiofilemanager/server/src/config/plugin.ts",
-      "path": "/home/asd/asd/museum-audiofilemanager/server/node_modules/egg-cors",
+      "from": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/src/config/plugin.ts",
+      "path": "/home/asd/asd/testOnGit/umi-midway-scaffolding/server/node_modules/egg-cors",
       "version": "2.2.3"
     }
   }

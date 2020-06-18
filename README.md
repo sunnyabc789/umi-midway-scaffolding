@@ -10,6 +10,7 @@
 
 ```bash
 $ npm i
+windows wsl下 最好cnpm i
 $ npm start # 启动后端
 $ npm run startclient # 启动前端
 $ open http://localhost:7001/  
