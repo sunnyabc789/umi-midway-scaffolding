@@ -29,3 +29,6 @@ run/
 
 # manifest.json
 version
+
+server/log
+server/logs
